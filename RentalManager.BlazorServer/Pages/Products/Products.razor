@@ -1,0 +1,172 @@
+﻿@page "/products"
+@inject NavigationManager NavigationManager
+@using FluentValidation
+@using RentalManager.Domain.Models;
+@using RentalManager.Domain.Contracts
+@using Serilog.Core
+@inject ILogger<Product> Logger
+@inject IValidator<Product> ProductValidator
+@inject IRentalManagerUnitOfWork UnitOfWork
+<PageTitle>Produkty</PageTitle>
+<h3>Produkty</h3>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Nazwa</th>
+        <th>Cena</th>
+        <th>Ilość w magazynie</th>
+        <th>Typ produktu</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var product in _products)
+    {
+        <tr style="vertical-align: middle;">
+            <td>@product.ProductId</td>
+            <td>@product.ProductName</td>
+            <td>@product.Price</td>
+            <td>@product.QuantityInStock</td>
+            <td>@product.ProductType?.TypeName</td>
+            <td style="vertical-align: middle;">
+                <button @onclick="() => NavigateToProductDetail(product.ProductId)" class="btn btn-sm btn-info">Info</button>
+                <button @onclick="() => EditItem(product)" class="btn btn-sm btn-warning">Edytuj</button>
+                <button @onclick="() => DeleteItem(product.ProductId)" class="btn btn-sm btn-danger">Usuń</button>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<h3>@(_isEditMode ? "Edytuj produkt" : "Dodaj nowy produkt")</h3>
+<EditForm Model="@_newProduct" OnValidSubmit="AddOrUpdateItem">
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
+    <thead>
+    <tr>
+        <th>Nazwa</th>
+        <th>Opis</th>
+        <th>Cena</th>
+        <th>Ilość w magazynie</th>
+        <th>Typ produktu</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            <div class="form-group">
+                <InputText @bind-Value="@_newProduct.ProductName" class="form-control"/>
+                <ValidationMessage For="@(() => _newProduct.ProductName)"/>
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <InputText @bind-Value="@_newProduct.Description" class="form-control"/>
+                <ValidationMessage For="@(() => _newProduct.Description)"/>
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <InputNumber @bind-Value="@_newProduct.Price" class="form-control"/>
+                <ValidationMessage For="@(() => _newProduct.Price)"/>
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <InputNumber @bind-Value="@_newProduct.QuantityInStock" class="form-control"/>
+                <ValidationMessage For="@(() => _newProduct.QuantityInStock)"/>
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <InputText @bind-Value="@_typeName" class="form-control"/>
+
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <label></label>
+                <button type="submit" class="btn btn-primary">@(_isEditMode ? "Zapisz zmiany" : "Dodaj")</button>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</EditForm>
+
+@code {
+    Product _newProduct = new();
+    string _typeName = "";
+    IEnumerable<Product> _products = null!;
+    private bool _isEditMode;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _newProduct.ProductType = new ProductType();
+        await LoadProducts();
+    }
+
+    private async Task LoadProducts()
+    {
+        Logger.LogInformation("Loading products.");
+        _products = await UnitOfWork.ProductRepository.GetAllAsyncWithProductTypes();
+    }
+
+    private async Task AddOrUpdateItem()
+    {
+        try
+        {
+            Logger.LogInformation(_isEditMode ? "Updating product" : "Adding product");
+            var validationResult = await ProductValidator.ValidateAsync(_newProduct);
+            if (validationResult.IsValid)
+            {
+                var productType = await UnitOfWork.ProductTypeRepository.GetProductTypeByNameAsync(_typeName.ToUpper());
+                if (productType != null)
+                {
+                    _newProduct.ProductType = productType;
+
+                    if (_newProduct.ProductId == 0)
+                    {
+                        await UnitOfWork.ProductRepository.InsertAsync(_newProduct);
+                    }
+                    else
+                    {
+                        await UnitOfWork.ProductRepository.UpdateAsync(_newProduct);
+                    }
+
+                    Logger.LogInformation(_isEditMode ? "Edycja rekordu" : "Dodanie rekordu");
+
+                    await LoadProducts();
+                    _newProduct = new Product();
+                    _typeName = "";
+                    _isEditMode = false;
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Logger.LogError(ex, "Wystąpił błąd");
+        }
+    }
+
+
+    private async Task DeleteItem(int id)
+    {
+        Logger.LogInformation("Deleting product.");
+        await UnitOfWork.ProductRepository.DeleteAsync(id);
+        await LoadProducts();
+    }
+
+    private void EditItem(Product product)
+    {
+        _newProduct = product;
+        _typeName = "";
+        _isEditMode = true;
+    }
+
+    private void NavigateToProductDetail(int id)
+    {
+        NavigationManager.NavigateTo($"/products/{id}");
+    }
+}

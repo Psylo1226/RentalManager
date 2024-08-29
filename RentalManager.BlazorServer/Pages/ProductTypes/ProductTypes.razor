@@ -1,0 +1,134 @@
+﻿@page "/producttypes"
+@using FluentValidation
+@using RentalManager.Domain.Models;
+@using Microsoft.Extensions.Logging
+@using RentalManager.Domain.Contracts
+@inject IValidator<ProductType> ProductTypeValidator
+@inject IRentalManagerUnitOfWork UnitOfWork
+@inject IJSRuntime JSRuntime;
+@inject ILogger<ProductType> Logger
+<PageTitle>Typy produktów</PageTitle>
+<h3>Typy produktów</h3>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Nazwa</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var product in _productTypes)
+    {
+        <tr style="vertical-align: middle;">
+            <td>@product.ProductTypeId</td>
+            <td>@product.TypeName</td>
+            <td style="vertical-align: middle;">
+                <button @onclick="() => ShowInfo(product)" class="btn btn-sm btn-warning">Info</button>
+                <button @onclick="() => EditItem(product)" class="btn btn-sm btn-warning">Edytuj</button>
+                <button @onclick="() => DeleteItem(product.ProductTypeId)" class="btn btn-sm btn-danger">Usuń</button>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<h3>@(_isEditMode ? "Edytuj typ produktu" : "Dodaj nowy typ produktów")</h3>
+<EditForm Model="@_newProductType" OnValidSubmit="AddOrUpdateItem">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <thead>
+        <tr>
+            <th>Nazwa</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <InputText @bind-Value="@_newProductType.TypeName" class="form-control" />
+                    <ValidationMessage For="@(() => _newProductType.TypeName)" />
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <label></label>
+                    <button type="submit" class="btn btn-primary">@((_isEditMode ? "Zapisz zmiany" : "Dodaj"))</button>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</EditForm>
+
+@code {
+    ProductType _newProductType = new();
+    IEnumerable<ProductType> _productTypes = null!;
+    private bool _isEditMode;
+
+    protected override void OnInitialized()
+    {
+        LoadProductTypes();
+    }
+
+    private void LoadProductTypes()
+    {
+        _productTypes = UnitOfWork.ProductTypeRepository.GetAll().ToList();
+    }
+
+    private async Task AddOrUpdateItem()
+    {
+        try
+        {
+            Logger.LogInformation(_isEditMode ? "Updating product type" : "Adding product type");
+            var validationResult = await ProductTypeValidator.ValidateAsync(_newProductType);
+            if (validationResult.IsValid)
+            {
+                if (_newProductType.ProductTypeId == 0)
+                {
+                    _newProductType.TypeName = _newProductType.TypeName.ToUpper();
+                    await UnitOfWork.ProductTypeRepository.InsertAsync(_newProductType);
+                }
+                else
+                {
+                    _newProductType.TypeName = _newProductType.TypeName.ToUpper();
+                    await UnitOfWork.ProductTypeRepository.UpdateAsync(_newProductType);
+                }
+
+                Logger.LogInformation(_isEditMode ? "Edycja danych" : "Dodanie danych");
+
+                LoadProductTypes();
+                _newProductType = new ProductType();
+                _isEditMode = false;
+            }
+        }
+        catch (Exception ex)
+        {
+            Logger.LogError(ex, "Wystąpił błąd");
+        }
+    }
+
+    private async Task DeleteItem(int id)
+    {
+        try
+        {
+            Logger.LogInformation("Deleting product type");
+            await UnitOfWork.ProductTypeRepository.DeleteAsync(id);
+            LoadProductTypes();
+        }
+        catch (Exception ex)
+        {
+            Logger.LogError(ex, "Wystąpił błąd");
+        }
+    }
+
+    private void EditItem(ProductType productType)
+    {
+        _newProductType = productType;
+        _isEditMode = true;
+    }
+    private async Task ShowInfo(ProductType productType)
+    {
+        await JSRuntime.InvokeVoidAsync("alert", $"Id: {productType.ProductTypeId}, Nazwa: {productType.TypeName}");
+    }
+
+}

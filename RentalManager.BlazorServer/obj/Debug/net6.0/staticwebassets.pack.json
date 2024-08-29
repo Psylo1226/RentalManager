@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Visual Studio\\Programowanie aplikacji biznesowych\\rentalmenager\\RentalManager.BlazorServer\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RentalManager.BlazorServer.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RentalManager.BlazorServer.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Visual Studio\\Programowanie aplikacji biznesowych\\rentalmenager\\RentalManager.BlazorServer\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Visual Studio\\Programowanie aplikacji biznesowych\\rentalmenager\\RentalManager.BlazorServer\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Visual Studio\\Programowanie aplikacji biznesowych\\rentalmenager\\RentalManager.BlazorServer\\wwwroot\\css\\images\\closeup-shot-snowboards-covered-snow-mountains.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\closeup-shot-snowboards-covered-snow-mountains.jpg"
+    },
+    {
+      "Id": "C:\\Visual Studio\\Programowanie aplikacji biznesowych\\rentalmenager\\RentalManager.BlazorServer\\wwwroot\\css\\images\\ropeway-with-snow-covered-alps.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\ropeway-with-snow-covered-alps.jpg"
+    },
+    {
+      "Id": "C:\\Visual Studio\\Programowanie aplikacji biznesowych\\rentalmenager\\RentalManager.BlazorServer\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Visual Studio\\Programowanie aplikacji biznesowych\\rentalmenager\\RentalManager.BlazorServer\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Visual Studio\\Programowanie aplikacji biznesowych\\rentalmenager\\RentalManager.BlazorServer\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Visual Studio\\Programowanie aplikacji biznesowych\\rentalmenager\\RentalManager.BlazorServer\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Visual Studio\\Programowanie aplikacji biznesowych\\rentalmenager\\RentalManager.BlazorServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Visual Studio\\Programowanie aplikacji biznesowych\\rentalmenager\\RentalManager.BlazorServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Visual Studio\\Programowanie aplikacji biznesowych\\rentalmenager\\RentalManager.BlazorServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Visual Studio\\Programowanie aplikacji biznesowych\\rentalmenager\\RentalManager.BlazorServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Visual Studio\\Programowanie aplikacji biznesowych\\rentalmenager\\RentalManager.BlazorServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Visual Studio\\Programowanie aplikacji biznesowych\\rentalmenager\\RentalManager.BlazorServer\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Visual Studio\\Programowanie aplikacji biznesowych\\rentalmenager\\RentalManager.BlazorServer\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.RentalManager.BlazorServer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.RentalManager.BlazorServer.props",
+      "PackagePath": "build\\RentalManager.BlazorServer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.RentalManager.BlazorServer.props",
+      "PackagePath": "buildMultiTargeting\\RentalManager.BlazorServer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.RentalManager.BlazorServer.props",
+      "PackagePath": "buildTransitive\\RentalManager.BlazorServer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,219 @@
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.csproj.AssemblyReference.cache
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.AssemblyInfoInputs.cache
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.AssemblyInfo.cs
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.csproj.CoreCompileInputs.cache
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.RazorAssemblyInfo.cache
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.RazorAssemblyInfo.cs
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.csproj.AssemblyReference.cache
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.AssemblyInfoInputs.cache
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.AssemblyInfo.cs
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.csproj.CoreCompileInputs.cache
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.MvcApplicationPartsAssemblyInfo.cs
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.MvcApplicationPartsAssemblyInfo.cache
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.RazorAssemblyInfo.cache
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.RazorAssemblyInfo.cs
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.csproj.AssemblyReference.cache
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.AssemblyInfoInputs.cache
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.AssemblyInfo.cs
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.csproj.CoreCompileInputs.cache
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.MvcApplicationPartsAssemblyInfo.cs
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.MvcApplicationPartsAssemblyInfo.cache
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.RazorAssemblyInfo.cache
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.RazorAssemblyInfo.cs
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.sourcelink.json
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.WebAPI.deps.json
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.WebAPI.runtimeconfig.json
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.WebAPI.exe
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\nlog.config
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\appsettings.Development.json
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\appsettings.json
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.BlazorServer.staticwebassets.runtime.json
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.BlazorServer.exe
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.BlazorServer.deps.json
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.BlazorServer.runtimeconfig.json
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.BlazorServer.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.BlazorServer.pdb
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Blazored.FluentValidation.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\FluentValidation.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.JSInterop.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\System.IO.Pipelines.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.Application.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.Domain.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.Infrastructure.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.SharedKernel.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.WebAPI.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.Application.pdb
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.Domain.pdb
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.Infrastructure.pdb
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.SharedKernel.pdb
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.WebAPI.pdb
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\staticwebassets.build.json
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\staticwebassets.development.json
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\staticwebassets\msbuild.RentalManager.BlazorServer.Microsoft.AspNetCore.StaticWebAssets.props
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\staticwebassets\msbuild.build.RentalManager.BlazorServer.props
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RentalManager.BlazorServer.props
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RentalManager.BlazorServer.props
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\staticwebassets.pack.json
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\scopedcss\bundle\RentalManager.BlazorServer.styles.css
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\scopedcss\projectbundle\RentalManager.BlazorServer.bundle.scp.css
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalMa.A98C754F.Up2Date
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\refint\RentalManager.BlazorServer.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.pdb
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.genruntimeconfig.cache
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\ref\RentalManager.BlazorServer.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Serilog.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\Serilog.Sinks.File.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\appsettings.Development.json
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\appsettings.json
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.WebAPI.deps.json
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.WebAPI.runtimeconfig.json
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.WebAPI.exe
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\nlog.config
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.BlazorServer.staticwebassets.runtime.json
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.BlazorServer.exe
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.BlazorServer.deps.json
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.BlazorServer.runtimeconfig.json
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.BlazorServer.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.BlazorServer.pdb
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Blazored.FluentValidation.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\FluentValidation.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.JSInterop.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Serilog.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.Application.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.Domain.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.Infrastructure.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.SharedKernel.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.WebAPI.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.Application.pdb
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.Domain.pdb
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.Infrastructure.pdb
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.SharedKernel.pdb
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\bin\Debug\net6.0\RentalManager.WebAPI.pdb
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.csproj.AssemblyReference.cache
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.AssemblyInfoInputs.cache
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.AssemblyInfo.cs
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.csproj.CoreCompileInputs.cache
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.MvcApplicationPartsAssemblyInfo.cs
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.RazorAssemblyInfo.cache
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.RazorAssemblyInfo.cs
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\staticwebassets\msbuild.RentalManager.BlazorServer.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\staticwebassets\msbuild.build.RentalManager.BlazorServer.props
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RentalManager.BlazorServer.props
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RentalManager.BlazorServer.props
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\staticwebassets.build.json
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\staticwebassets.development.json
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\scopedcss\bundle\RentalManager.BlazorServer.styles.css
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\scopedcss\projectbundle\RentalManager.BlazorServer.bundle.scp.css
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.csproj.CopyComplete
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\refint\RentalManager.BlazorServer.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.pdb
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\RentalManager.BlazorServer.genruntimeconfig.cache
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\ref\RentalManager.BlazorServer.dll

@@ -1,0 +1,511 @@
+2024-08-29 19:48:48.916 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 19:48:49.221 +02:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 19:48:49.233 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 19:48:49.531 +02:00 [INF] User profile is available. Using 'C:\Users\KamilSarzyniak\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-29 19:48:49.974 +02:00 [INF] Now listening on: https://localhost:7000
+2024-08-29 19:48:49.974 +02:00 [INF] Now listening on: http://localhost:5023
+2024-08-29 19:48:49.978 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 19:48:49.979 +02:00 [INF] Hosting environment: Development
+2024-08-29 19:48:49.979 +02:00 [INF] Content root path: C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\
+2024-08-29 19:48:50.362 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/ - -
+2024-08-29 19:48:50.442 +02:00 [INF] Executing endpoint '/_Host'
+2024-08-29 19:48:50.498 +02:00 [INF] Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-29 19:48:50.515 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-08-29 19:48:50.516 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-29 19:48:50.883 +02:00 [INF] Executed page /_Host in 379.7859ms
+2024-08-29 19:48:50.885 +02:00 [INF] Executed endpoint '/_Host'
+2024-08-29 19:48:50.911 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/site.css - -
+2024-08-29 19:48:50.911 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-29 19:48:50.911 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/RentalManager.BlazorServer.styles.css - -
+2024-08-29 19:48:50.911 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/bootstrap/bootstrap.min.css - -
+2024-08-29 19:48:50.911 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-29 19:48:50.937 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/images/closeup-shot-snowboards-covered-snow-mountains.jpg - -
+2024-08-29 19:48:50.938 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/images/ropeway-with-snow-covered-alps.jpg - -
+2024-08-29 19:48:50.958 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_framework/blazor.server.js - -
+2024-08-29 19:48:50.958 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_vs/browserLink - -
+2024-08-29 19:48:50.958 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_framework/aspnetcore-browser-refresh.js - -
+2024-08-29 19:48:50.972 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_framework/aspnetcore-browser-refresh.js - - - 200 12384 application/javascript;+charset=utf-8 12.2269ms
+2024-08-29 19:48:50.975 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/ - - - 200 - text/html;+charset=utf-8 618.5878ms
+2024-08-29 19:48:51.029 +02:00 [INF] Sending file. Request path: '/css/bootstrap/bootstrap.min.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\bootstrap\bootstrap.min.css'
+2024-08-29 19:48:51.029 +02:00 [INF] Sending file. Request path: '/_framework/blazor.server.js'. Physical path: 'N/A'
+2024-08-29 19:48:51.029 +02:00 [INF] Sending file. Request path: '/_content/MudBlazor/MudBlazor.min.js'. Physical path: 'C:\Users\KamilSarzyniak\.nuget\packages\mudblazor\7.6.0\staticwebassets\MudBlazor.min.js'
+2024-08-29 19:48:51.029 +02:00 [INF] Sending file. Request path: '/RentalManager.BlazorServer.styles.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\scopedcss\bundle\RentalManager.BlazorServer.styles.css'
+2024-08-29 19:48:51.029 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\site.css'
+2024-08-29 19:48:51.032 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.js - - - 200 49649 application/javascript 120.6344ms
+2024-08-29 19:48:51.033 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/site.css - - - 200 2810 text/css 122.6676ms
+2024-08-29 19:48:51.033 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 74.9453ms
+2024-08-29 19:48:51.033 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/RentalManager.BlazorServer.styles.css - - - 200 2873 text/css 122.8207ms
+2024-08-29 19:48:51.033 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/bootstrap/bootstrap.min.css - - - 200 162726 text/css 122.8712ms
+2024-08-29 19:48:51.033 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_framework/blazor.server.js - - - 200 132176 application/javascript 75.4176ms
+2024-08-29 19:48:51.042 +02:00 [INF] Sending file. Request path: '/_content/MudBlazor/MudBlazor.min.css'. Physical path: 'C:\Users\KamilSarzyniak\.nuget\packages\mudblazor\7.6.0\staticwebassets\MudBlazor.min.css'
+2024-08-29 19:48:51.042 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.css - - - 200 580200 text/css 131.2675ms
+2024-08-29 19:48:51.047 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-29 19:48:51.063 +02:00 [INF] Sending file. Request path: '/css/open-iconic/font/css/open-iconic-bootstrap.min.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css'
+2024-08-29 19:48:51.063 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 200 9395 text/css 15.5596ms
+2024-08-29 19:48:51.072 +02:00 [INF] Sending file. Request path: '/css/images/closeup-shot-snowboards-covered-snow-mountains.jpg'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\images\closeup-shot-snowboards-covered-snow-mountains.jpg'
+2024-08-29 19:48:51.073 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/images/closeup-shot-snowboards-covered-snow-mountains.jpg - - - 200 5695957 image/jpeg 135.4064ms
+2024-08-29 19:48:51.085 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_blazor/initializers - -
+2024-08-29 19:48:51.090 +02:00 [INF] Executing endpoint 'Blazor initializers'
+2024-08-29 19:48:51.094 +02:00 [INF] Executed endpoint 'Blazor initializers'
+2024-08-29 19:48:51.094 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_blazor/initializers - - - 200 - application/json;+charset=utf-8 8.9109ms
+2024-08-29 19:48:51.113 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-29 19:48:51.125 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:48:51.141 +02:00 [INF] Sending file. Request path: '/css/open-iconic/font/fonts/open-iconic.woff'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\open-iconic\font\fonts\open-iconic.woff'
+2024-08-29 19:48:51.141 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/open-iconic/font/fonts/open-iconic.woff - - - 200 14984 application/font-woff 28.3136ms
+2024-08-29 19:48:51.145 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7000/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-29 19:48:51.146 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:48:51.149 +02:00 [INF] Sending file. Request path: '/css/images/ropeway-with-snow-covered-alps.jpg'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\images\ropeway-with-snow-covered-alps.jpg'
+2024-08-29 19:48:51.149 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/images/ropeway-with-snow-covered-alps.jpg - - - 200 17712899 image/jpeg 212.0986ms
+2024-08-29 19:48:51.150 +02:00 [INF] Executing endpoint '/_blazor/negotiate'
+2024-08-29 19:48:51.168 +02:00 [INF] Executed endpoint '/_blazor/negotiate'
+2024-08-29 19:48:51.168 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7000/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 22.5965ms
+2024-08-29 19:48:51.207 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7000/_blazor?id=XUGt9GxOLNpYlKIMOG-DPQ - -
+2024-08-29 19:48:51.207 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:48:51.207 +02:00 [INF] Executing endpoint '/_blazor'
+2024-08-29 19:48:52.766 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 19:48:52.766 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 19:48:53.014 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-29 19:49:41.921 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/producttypes - -
+2024-08-29 19:49:41.922 +02:00 [INF] Executing endpoint '/_Host'
+2024-08-29 19:49:41.923 +02:00 [INF] Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-29 19:49:41.924 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-08-29 19:49:41.924 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-29 19:49:41.971 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 19:49:41.978 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 19:49:41.980 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-29 19:49:41.988 +02:00 [INF] Executed page /_Host in 65.2943ms
+2024-08-29 19:49:41.992 +02:00 [INF] Executed endpoint '/_Host'
+2024-08-29 19:49:41.993 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7000/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryaqfpjSBGYbetEhFi 359
+2024-08-29 19:49:41.994 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:49:41.998 +02:00 [INF] Executing endpoint 'Blazor disconnect'
+2024-08-29 19:49:42.002 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/bootstrap/bootstrap.min.css - -
+2024-08-29 19:49:42.007 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/site.css - -
+2024-08-29 19:49:42.008 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/RentalManager.BlazorServer.styles.css - -
+2024-08-29 19:49:42.018 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-29 19:49:42.023 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\site.css'
+2024-08-29 19:49:42.025 +02:00 [INF] Sending file. Request path: '/RentalManager.BlazorServer.styles.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\scopedcss\bundle\RentalManager.BlazorServer.styles.css'
+2024-08-29 19:49:42.026 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/site.css - - - 200 2810 text/css 21.9325ms
+2024-08-29 19:49:42.032 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-29 19:49:42.032 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/RentalManager.BlazorServer.styles.css - - - 200 2873 text/css 24.2927ms
+2024-08-29 19:49:42.032 +02:00 [INF] Sending file. Request path: '/css/bootstrap/bootstrap.min.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\bootstrap\bootstrap.min.css'
+2024-08-29 19:49:42.032 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_framework/blazor.server.js - -
+2024-08-29 19:49:42.034 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/bootstrap/bootstrap.min.css - - - 200 162726 text/css 32.4388ms
+2024-08-29 19:49:42.034 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/producttypes - - - 200 - text/html;+charset=utf-8 113.8734ms
+2024-08-29 19:49:42.034 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-29 19:49:42.034 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_vs/browserLink - -
+2024-08-29 19:49:42.036 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_framework/aspnetcore-browser-refresh.js - -
+2024-08-29 19:49:42.037 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_framework/aspnetcore-browser-refresh.js - - - 200 12384 application/javascript;+charset=utf-8 2.3170ms
+2024-08-29 19:49:42.039 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.3305ms
+2024-08-29 19:49:42.042 +02:00 [INF] The file /_framework/blazor.server.js was not modified
+2024-08-29 19:49:42.042 +02:00 [INF] The file /_content/MudBlazor/MudBlazor.min.css was not modified
+2024-08-29 19:49:42.042 +02:00 [INF] The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-29 19:49:42.042 +02:00 [INF] The file /_content/MudBlazor/MudBlazor.min.js was not modified
+2024-08-29 19:49:42.042 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_framework/blazor.server.js - - - 304 - application/javascript 9.9363ms
+2024-08-29 19:49:42.042 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.css - - - 304 - text/css 23.8946ms
+2024-08-29 19:49:42.042 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 7.6940ms
+2024-08-29 19:49:42.042 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.js - - - 304 - application/javascript 10.6914ms
+2024-08-29 19:49:42.047 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_blazor/initializers - -
+2024-08-29 19:49:42.047 +02:00 [INF] Executing endpoint 'Blazor initializers'
+2024-08-29 19:49:42.047 +02:00 [INF] Executed endpoint 'Blazor initializers'
+2024-08-29 19:49:42.047 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_blazor/initializers - - - 200 - application/json;+charset=utf-8 0.4612ms
+2024-08-29 19:49:42.051 +02:00 [INF] Executed endpoint 'Blazor disconnect'
+2024-08-29 19:49:42.051 +02:00 [INF] Executed endpoint '/_blazor'
+2024-08-29 19:49:42.051 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7000/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryaqfpjSBGYbetEhFi 359 - 200 0 - 58.6309ms
+2024-08-29 19:49:42.051 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7000/_blazor?id=XUGt9GxOLNpYlKIMOG-DPQ - - - 101 - - 50844.6816ms
+2024-08-29 19:49:42.053 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-29 19:49:42.053 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:49:42.053 +02:00 [INF] The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-29 19:49:42.053 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 0.4379ms
+2024-08-29 19:49:42.064 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7000/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-29 19:49:42.064 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:49:42.064 +02:00 [INF] Executing endpoint '/_blazor/negotiate'
+2024-08-29 19:49:42.065 +02:00 [INF] Executed endpoint '/_blazor/negotiate'
+2024-08-29 19:49:42.065 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7000/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 0.5069ms
+2024-08-29 19:49:42.067 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/favicon.ico - -
+2024-08-29 19:49:42.075 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\favicon.ico'
+2024-08-29 19:49:42.075 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/favicon.ico - - - 200 5430 image/x-icon 8.1177ms
+2024-08-29 19:49:42.085 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7000/_blazor?id=xgoqqHVnpx52NoQoGi7MeA - -
+2024-08-29 19:49:42.085 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:49:42.085 +02:00 [INF] Executing endpoint '/_blazor'
+2024-08-29 19:49:42.098 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 19:49:42.098 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 19:49:42.100 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-29 19:49:43.529 +02:00 [INF] Loading products.
+2024-08-29 19:49:43.719 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock", "p0"."ProductTypeId", "p0"."TypeName"
+FROM "Products" AS "p"
+INNER JOIN "ProductTypes" AS "p0" ON "p"."ProductTypeId" = "p0"."ProductTypeId"
+2024-08-29 19:49:44.769 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/products - -
+2024-08-29 19:49:44.770 +02:00 [INF] Executing endpoint '/_Host'
+2024-08-29 19:49:44.770 +02:00 [INF] Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-29 19:49:44.771 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-08-29 19:49:44.771 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-29 19:49:44.772 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 19:49:44.772 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 19:49:44.772 +02:00 [INF] Loading products.
+2024-08-29 19:49:44.774 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock", "p0"."ProductTypeId", "p0"."TypeName"
+FROM "Products" AS "p"
+INNER JOIN "ProductTypes" AS "p0" ON "p"."ProductTypeId" = "p0"."ProductTypeId"
+2024-08-29 19:49:44.780 +02:00 [INF] Executed page /_Host in 10.1813ms
+2024-08-29 19:49:44.781 +02:00 [INF] Executed endpoint '/_Host'
+2024-08-29 19:49:44.782 +02:00 [INF] Executed endpoint '/_blazor'
+2024-08-29 19:49:44.782 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7000/_blazor?id=xgoqqHVnpx52NoQoGi7MeA - - - 101 - - 2696.7908ms
+2024-08-29 19:49:44.783 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/products - - - 200 - text/html;+charset=utf-8 13.3468ms
+2024-08-29 19:49:44.789 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7000/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryQYjfaGBWhFt82A0B 359
+2024-08-29 19:49:44.789 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:49:44.789 +02:00 [INF] Executing endpoint 'Blazor disconnect'
+2024-08-29 19:49:44.789 +02:00 [INF] Executed endpoint 'Blazor disconnect'
+2024-08-29 19:49:44.790 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7000/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryQYjfaGBWhFt82A0B 359 - 200 0 - 0.9468ms
+2024-08-29 19:49:44.791 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/bootstrap/bootstrap.min.css - -
+2024-08-29 19:49:44.794 +02:00 [INF] Sending file. Request path: '/css/bootstrap/bootstrap.min.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\bootstrap\bootstrap.min.css'
+2024-08-29 19:49:44.794 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/bootstrap/bootstrap.min.css - - - 200 162726 text/css 2.4300ms
+2024-08-29 19:49:44.794 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/site.css - -
+2024-08-29 19:49:44.795 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/RentalManager.BlazorServer.styles.css - -
+2024-08-29 19:49:44.795 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-29 19:49:44.795 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-29 19:49:44.795 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_framework/blazor.server.js - -
+2024-08-29 19:49:44.795 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_vs/browserLink - -
+2024-08-29 19:49:44.795 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_framework/aspnetcore-browser-refresh.js - -
+2024-08-29 19:49:44.796 +02:00 [INF] Sending file. Request path: '/RentalManager.BlazorServer.styles.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\scopedcss\bundle\RentalManager.BlazorServer.styles.css'
+2024-08-29 19:49:44.796 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\site.css'
+2024-08-29 19:49:44.797 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/RentalManager.BlazorServer.styles.css - - - 200 2873 text/css 2.0196ms
+2024-08-29 19:49:44.797 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/site.css - - - 200 2810 text/css 2.2233ms
+2024-08-29 19:49:44.797 +02:00 [INF] Sending file. Request path: '/_framework/blazor.server.js'. Physical path: 'N/A'
+2024-08-29 19:49:44.797 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_framework/aspnetcore-browser-refresh.js - - - 200 12384 application/javascript;+charset=utf-8 1.8097ms
+2024-08-29 19:49:44.797 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_framework/blazor.server.js - - - 200 132176 application/javascript 2.6766ms
+2024-08-29 19:49:44.798 +02:00 [INF] Sending file. Request path: '/_content/MudBlazor/MudBlazor.min.js'. Physical path: 'C:\Users\KamilSarzyniak\.nuget\packages\mudblazor\7.6.0\staticwebassets\MudBlazor.min.js'
+2024-08-29 19:49:44.798 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.js - - - 200 49649 application/javascript 3.5621ms
+2024-08-29 19:49:44.799 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.9444ms
+2024-08-29 19:49:44.800 +02:00 [INF] Sending file. Request path: '/_content/MudBlazor/MudBlazor.min.css'. Physical path: 'C:\Users\KamilSarzyniak\.nuget\packages\mudblazor\7.6.0\staticwebassets\MudBlazor.min.css'
+2024-08-29 19:49:44.800 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.css - - - 200 580200 text/css 5.4821ms
+2024-08-29 19:49:44.802 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-29 19:49:44.804 +02:00 [INF] Sending file. Request path: '/css/open-iconic/font/css/open-iconic-bootstrap.min.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css'
+2024-08-29 19:49:44.804 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 200 9395 text/css 1.3915ms
+2024-08-29 19:49:44.814 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_blazor/initializers - -
+2024-08-29 19:49:44.814 +02:00 [INF] Executing endpoint 'Blazor initializers'
+2024-08-29 19:49:44.814 +02:00 [INF] Executed endpoint 'Blazor initializers'
+2024-08-29 19:49:44.814 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_blazor/initializers - - - 200 - application/json;+charset=utf-8 0.3632ms
+2024-08-29 19:49:44.821 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-29 19:49:44.821 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:49:44.823 +02:00 [INF] Sending file. Request path: '/css/open-iconic/font/fonts/open-iconic.woff'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\open-iconic\font\fonts\open-iconic.woff'
+2024-08-29 19:49:44.823 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/open-iconic/font/fonts/open-iconic.woff - - - 200 14984 application/font-woff 1.8968ms
+2024-08-29 19:49:44.824 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7000/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-29 19:49:44.824 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:49:44.824 +02:00 [INF] Executing endpoint '/_blazor/negotiate'
+2024-08-29 19:49:44.824 +02:00 [INF] Executed endpoint '/_blazor/negotiate'
+2024-08-29 19:49:44.824 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7000/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 0.4654ms
+2024-08-29 19:49:44.830 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/favicon.ico - -
+2024-08-29 19:49:44.832 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\favicon.ico'
+2024-08-29 19:49:44.832 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/favicon.ico - - - 200 5430 image/x-icon 2.0229ms
+2024-08-29 19:49:44.844 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7000/_blazor?id=xB345-NY4NJSmsh0_F9PSA - -
+2024-08-29 19:49:44.844 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:49:44.844 +02:00 [INF] Executing endpoint '/_blazor'
+2024-08-29 19:49:44.852 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 19:49:44.852 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 19:49:44.853 +02:00 [INF] Loading products.
+2024-08-29 19:49:44.853 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock", "p0"."ProductTypeId", "p0"."TypeName"
+FROM "Products" AS "p"
+INNER JOIN "ProductTypes" AS "p0" ON "p"."ProductTypeId" = "p0"."ProductTypeId"
+2024-08-29 19:51:17.757 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/products - -
+2024-08-29 19:51:17.763 +02:00 [INF] Executing endpoint '/_Host'
+2024-08-29 19:51:17.763 +02:00 [INF] Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-29 19:51:17.763 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-08-29 19:51:17.763 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-29 19:51:17.764 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 19:51:17.765 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 19:51:17.765 +02:00 [INF] Loading products.
+2024-08-29 19:51:17.765 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock", "p0"."ProductTypeId", "p0"."TypeName"
+FROM "Products" AS "p"
+INNER JOIN "ProductTypes" AS "p0" ON "p"."ProductTypeId" = "p0"."ProductTypeId"
+2024-08-29 19:51:17.770 +02:00 [INF] Executed page /_Host in 6.6706ms
+2024-08-29 19:51:17.770 +02:00 [INF] Executed endpoint '/_Host'
+2024-08-29 19:51:17.797 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/products - - - 200 - text/html;+charset=utf-8 40.1446ms
+2024-08-29 19:51:17.848 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7000/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryVj0h8hFAmNoIhB3A 359
+2024-08-29 19:51:17.852 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:51:17.852 +02:00 [INF] Executing endpoint 'Blazor disconnect'
+2024-08-29 19:51:17.858 +02:00 [INF] Executed endpoint 'Blazor disconnect'
+2024-08-29 19:51:17.859 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7000/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryVj0h8hFAmNoIhB3A 359 - 200 0 - 10.2955ms
+2024-08-29 19:51:17.861 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/bootstrap/bootstrap.min.css - -
+2024-08-29 19:51:17.867 +02:00 [INF] Executed endpoint '/_blazor'
+2024-08-29 19:51:17.867 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7000/_blazor?id=xB345-NY4NJSmsh0_F9PSA - - - 101 - - 93023.1625ms
+2024-08-29 19:51:17.869 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/site.css - -
+2024-08-29 19:51:17.869 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/RentalManager.BlazorServer.styles.css - -
+2024-08-29 19:51:17.872 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-29 19:51:17.872 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-29 19:51:17.873 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_framework/blazor.server.js - -
+2024-08-29 19:51:17.877 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_framework/aspnetcore-browser-refresh.js - -
+2024-08-29 19:51:17.877 +02:00 [INF] Sending file. Request path: '/_framework/blazor.server.js'. Physical path: 'N/A'
+2024-08-29 19:51:17.878 +02:00 [INF] Sending file. Request path: '/RentalManager.BlazorServer.styles.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\scopedcss\bundle\RentalManager.BlazorServer.styles.css'
+2024-08-29 19:51:17.878 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_framework/blazor.server.js - - - 200 132176 application/javascript 5.2735ms
+2024-08-29 19:51:17.879 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_vs/browserLink - -
+2024-08-29 19:51:17.879 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/RentalManager.BlazorServer.styles.css - - - 200 2873 text/css 9.5907ms
+2024-08-29 19:51:17.880 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_framework/aspnetcore-browser-refresh.js - - - 200 12384 application/javascript;+charset=utf-8 2.6745ms
+2024-08-29 19:51:17.885 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\site.css'
+2024-08-29 19:51:17.889 +02:00 [INF] Sending file. Request path: '/_content/MudBlazor/MudBlazor.min.js'. Physical path: 'C:\Users\KamilSarzyniak\.nuget\packages\mudblazor\7.6.0\staticwebassets\MudBlazor.min.js'
+2024-08-29 19:51:17.889 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/site.css - - - 200 2810 text/css 20.4209ms
+2024-08-29 19:51:17.889 +02:00 [INF] Sending file. Request path: '/css/bootstrap/bootstrap.min.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\bootstrap\bootstrap.min.css'
+2024-08-29 19:51:17.890 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.js - - - 200 49649 application/javascript 17.8955ms
+2024-08-29 19:51:17.890 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/bootstrap/bootstrap.min.css - - - 200 162726 text/css 28.8386ms
+2024-08-29 19:51:17.891 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.8836ms
+2024-08-29 19:51:17.892 +02:00 [INF] Sending file. Request path: '/_content/MudBlazor/MudBlazor.min.css'. Physical path: 'C:\Users\KamilSarzyniak\.nuget\packages\mudblazor\7.6.0\staticwebassets\MudBlazor.min.css'
+2024-08-29 19:51:17.892 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.css - - - 200 580200 text/css 20.2267ms
+2024-08-29 19:51:17.893 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-29 19:51:17.894 +02:00 [INF] Sending file. Request path: '/css/open-iconic/font/css/open-iconic-bootstrap.min.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css'
+2024-08-29 19:51:17.894 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 200 9395 text/css 1.5963ms
+2024-08-29 19:51:17.906 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_blazor/initializers - -
+2024-08-29 19:51:17.906 +02:00 [INF] Executing endpoint 'Blazor initializers'
+2024-08-29 19:51:17.906 +02:00 [INF] Executed endpoint 'Blazor initializers'
+2024-08-29 19:51:17.906 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_blazor/initializers - - - 200 - application/json;+charset=utf-8 0.3968ms
+2024-08-29 19:51:17.914 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-29 19:51:17.914 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:51:17.915 +02:00 [INF] Sending file. Request path: '/css/open-iconic/font/fonts/open-iconic.woff'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\open-iconic\font\fonts\open-iconic.woff'
+2024-08-29 19:51:17.915 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/open-iconic/font/fonts/open-iconic.woff - - - 200 14984 application/font-woff 1.6453ms
+2024-08-29 19:51:17.917 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7000/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-29 19:51:17.917 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:51:17.917 +02:00 [INF] Executing endpoint '/_blazor/negotiate'
+2024-08-29 19:51:17.917 +02:00 [INF] Executed endpoint '/_blazor/negotiate'
+2024-08-29 19:51:17.918 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7000/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 0.4259ms
+2024-08-29 19:51:17.923 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/favicon.ico - -
+2024-08-29 19:51:17.925 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\favicon.ico'
+2024-08-29 19:51:17.925 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/favicon.ico - - - 200 5430 image/x-icon 1.8193ms
+2024-08-29 19:51:17.938 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7000/_blazor?id=L1ZMX2rDlHj2ysiYfCEwnA - -
+2024-08-29 19:51:17.938 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:51:17.938 +02:00 [INF] Executing endpoint '/_blazor'
+2024-08-29 19:51:17.950 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 19:51:17.951 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 19:51:17.951 +02:00 [INF] Loading products.
+2024-08-29 19:51:17.951 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock", "p0"."ProductTypeId", "p0"."TypeName"
+FROM "Products" AS "p"
+INNER JOIN "ProductTypes" AS "p0" ON "p"."ProductTypeId" = "p0"."ProductTypeId"
+2024-08-29 19:51:19.007 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-29 19:51:19.984 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/producttypes - -
+2024-08-29 19:51:19.984 +02:00 [INF] Executing endpoint '/_Host'
+2024-08-29 19:51:19.984 +02:00 [INF] Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-29 19:51:19.985 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-08-29 19:51:19.985 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-29 19:51:19.985 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 19:51:19.986 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 19:51:19.986 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-29 19:51:19.994 +02:00 [INF] Executed endpoint '/_blazor'
+2024-08-29 19:51:19.994 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7000/_blazor?id=L1ZMX2rDlHj2ysiYfCEwnA - - - 101 - - 2056.6927ms
+2024-08-29 19:51:19.995 +02:00 [INF] Executed page /_Host in 10.1978ms
+2024-08-29 19:51:19.995 +02:00 [INF] Executed endpoint '/_Host'
+2024-08-29 19:51:19.996 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/producttypes - - - 200 - text/html;+charset=utf-8 12.5378ms
+2024-08-29 19:51:19.997 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7000/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundary2LcGJOA9qHfaSf72 359
+2024-08-29 19:51:19.997 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:51:19.997 +02:00 [INF] Executing endpoint 'Blazor disconnect'
+2024-08-29 19:51:19.997 +02:00 [INF] Executed endpoint 'Blazor disconnect'
+2024-08-29 19:51:19.997 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7000/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundary2LcGJOA9qHfaSf72 359 - 200 0 - 0.6435ms
+2024-08-29 19:51:20.007 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/bootstrap/bootstrap.min.css - -
+2024-08-29 19:51:20.007 +02:00 [INF] The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-29 19:51:20.007 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/bootstrap/bootstrap.min.css - - - 304 - text/css 0.4607ms
+2024-08-29 19:51:20.009 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/site.css - -
+2024-08-29 19:51:20.009 +02:00 [INF] The file /css/site.css was not modified
+2024-08-29 19:51:20.009 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/site.css - - - 304 - text/css 0.4281ms
+2024-08-29 19:51:20.009 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-29 19:51:20.009 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/RentalManager.BlazorServer.styles.css - -
+2024-08-29 19:51:20.010 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-29 19:51:20.010 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_framework/blazor.server.js - -
+2024-08-29 19:51:20.010 +02:00 [INF] The file /_content/MudBlazor/MudBlazor.min.css was not modified
+2024-08-29 19:51:20.010 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_framework/aspnetcore-browser-refresh.js - -
+2024-08-29 19:51:20.010 +02:00 [INF] The file /_content/MudBlazor/MudBlazor.min.js was not modified
+2024-08-29 19:51:20.010 +02:00 [INF] The file /RentalManager.BlazorServer.styles.css was not modified
+2024-08-29 19:51:20.010 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.css - - - 304 - text/css 0.5247ms
+2024-08-29 19:51:20.010 +02:00 [INF] The file /_framework/blazor.server.js was not modified
+2024-08-29 19:51:20.010 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_framework/aspnetcore-browser-refresh.js - - - 200 12384 application/javascript;+charset=utf-8 0.2080ms
+2024-08-29 19:51:20.010 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_vs/browserLink - -
+2024-08-29 19:51:20.010 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/RentalManager.BlazorServer.styles.css - - - 304 - text/css 0.7235ms
+2024-08-29 19:51:20.010 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_framework/blazor.server.js - - - 304 - application/javascript 0.4334ms
+2024-08-29 19:51:20.010 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.js - - - 304 - application/javascript 0.6021ms
+2024-08-29 19:51:20.013 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.4491ms
+2024-08-29 19:51:20.015 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-29 19:51:20.015 +02:00 [INF] The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-29 19:51:20.015 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.5467ms
+2024-08-29 19:51:20.019 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_blazor/initializers - -
+2024-08-29 19:51:20.020 +02:00 [INF] Executing endpoint 'Blazor initializers'
+2024-08-29 19:51:20.020 +02:00 [INF] Executed endpoint 'Blazor initializers'
+2024-08-29 19:51:20.020 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_blazor/initializers - - - 200 - application/json;+charset=utf-8 0.4048ms
+2024-08-29 19:51:20.024 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-29 19:51:20.024 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:51:20.024 +02:00 [INF] The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-29 19:51:20.024 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 0.4636ms
+2024-08-29 19:51:20.035 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7000/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-29 19:51:20.035 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:51:20.035 +02:00 [INF] Executing endpoint '/_blazor/negotiate'
+2024-08-29 19:51:20.035 +02:00 [INF] Executed endpoint '/_blazor/negotiate'
+2024-08-29 19:51:20.035 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7000/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 0.4852ms
+2024-08-29 19:51:20.039 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/favicon.ico - -
+2024-08-29 19:51:20.041 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\favicon.ico'
+2024-08-29 19:51:20.042 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/favicon.ico - - - 200 5430 image/x-icon 2.3624ms
+2024-08-29 19:51:20.057 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7000/_blazor?id=W-2XwrczzhNVB3loCg3iSg - -
+2024-08-29 19:51:20.058 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:51:20.058 +02:00 [INF] Executing endpoint '/_blazor'
+2024-08-29 19:51:20.064 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 19:51:20.065 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 19:51:20.065 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-29 19:52:00.255 +02:00 [INF] Executed endpoint '/_blazor'
+2024-08-29 19:52:00.255 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7000/_blazor?id=W-2XwrczzhNVB3loCg3iSg - - - 101 - - 40197.4969ms
+2024-08-29 19:52:00.270 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7000/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundarymqhxLSXE6SxeRBqC 359
+2024-08-29 19:52:00.275 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:52:00.277 +02:00 [INF] Executing endpoint 'Blazor disconnect'
+2024-08-29 19:52:00.278 +02:00 [INF] Executed endpoint 'Blazor disconnect'
+2024-08-29 19:52:00.278 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7000/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundarymqhxLSXE6SxeRBqC 359 - 200 0 - 8.1562ms
+2024-08-29 19:59:48.062 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 19:59:48.368 +02:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 19:59:48.380 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 19:59:48.613 +02:00 [INF] User profile is available. Using 'C:\Users\KamilSarzyniak\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-29 19:59:48.919 +02:00 [INF] Now listening on: https://localhost:7000
+2024-08-29 19:59:48.919 +02:00 [INF] Now listening on: http://localhost:5023
+2024-08-29 19:59:48.922 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 19:59:48.922 +02:00 [INF] Hosting environment: Development
+2024-08-29 19:59:48.922 +02:00 [INF] Content root path: C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\
+2024-08-29 19:59:49.385 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/ - -
+2024-08-29 19:59:49.439 +02:00 [INF] Executing endpoint '/_Host'
+2024-08-29 19:59:49.485 +02:00 [INF] Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-29 19:59:49.497 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-08-29 19:59:49.498 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-29 19:59:49.806 +02:00 [INF] Executed page /_Host in 315.6344ms
+2024-08-29 19:59:49.808 +02:00 [INF] Executed endpoint '/_Host'
+2024-08-29 19:59:49.834 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/RentalManager.BlazorServer.styles.css - -
+2024-08-29 19:59:49.834 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/bootstrap/bootstrap.min.css - -
+2024-08-29 19:59:49.834 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/site.css - -
+2024-08-29 19:59:49.834 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-29 19:59:49.856 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-29 19:59:49.856 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/images/ropeway-with-snow-covered-alps.jpg - -
+2024-08-29 19:59:49.862 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/images/closeup-shot-snowboards-covered-snow-mountains.jpg - -
+2024-08-29 19:59:49.879 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_framework/blazor.server.js - -
+2024-08-29 19:59:49.879 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_framework/aspnetcore-browser-refresh.js - -
+2024-08-29 19:59:49.879 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_vs/browserLink - -
+2024-08-29 19:59:49.884 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_framework/aspnetcore-browser-refresh.js - - - 200 12384 application/javascript;+charset=utf-8 4.9500ms
+2024-08-29 19:59:49.884 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/ - - - 200 - text/html;+charset=utf-8 503.2319ms
+2024-08-29 19:59:49.898 +02:00 [INF] Sending file. Request path: '/_framework/blazor.server.js'. Physical path: 'N/A'
+2024-08-29 19:59:49.903 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_framework/blazor.server.js - - - 200 132176 application/javascript 23.6027ms
+2024-08-29 19:59:49.932 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.6303ms
+2024-08-29 19:59:49.944 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\site.css'
+2024-08-29 19:59:49.944 +02:00 [INF] Sending file. Request path: '/RentalManager.BlazorServer.styles.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\scopedcss\bundle\RentalManager.BlazorServer.styles.css'
+2024-08-29 19:59:49.944 +02:00 [INF] Sending file. Request path: '/css/bootstrap/bootstrap.min.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\bootstrap\bootstrap.min.css'
+2024-08-29 19:59:49.944 +02:00 [INF] Sending file. Request path: '/_content/MudBlazor/MudBlazor.min.js'. Physical path: 'C:\Users\KamilSarzyniak\.nuget\packages\mudblazor\7.6.0\staticwebassets\MudBlazor.min.js'
+2024-08-29 19:59:49.944 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/site.css - - - 200 2810 text/css 110.7480ms
+2024-08-29 19:59:49.944 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/bootstrap/bootstrap.min.css - - - 200 162726 text/css 110.8071ms
+2024-08-29 19:59:49.945 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/RentalManager.BlazorServer.styles.css - - - 200 2873 text/css 111.0150ms
+2024-08-29 19:59:49.945 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.js - - - 200 49649 application/javascript 88.2278ms
+2024-08-29 19:59:49.945 +02:00 [INF] Sending file. Request path: '/_content/MudBlazor/MudBlazor.min.css'. Physical path: 'C:\Users\KamilSarzyniak\.nuget\packages\mudblazor\7.6.0\staticwebassets\MudBlazor.min.css'
+2024-08-29 19:59:49.946 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.css - - - 200 580200 text/css 111.9057ms
+2024-08-29 19:59:49.954 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-29 19:59:49.966 +02:00 [INF] Sending file. Request path: '/css/open-iconic/font/css/open-iconic-bootstrap.min.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css'
+2024-08-29 19:59:49.971 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 200 9395 text/css 12.6598ms
+2024-08-29 19:59:49.977 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_blazor/initializers - -
+2024-08-29 19:59:49.984 +02:00 [INF] Sending file. Request path: '/css/images/closeup-shot-snowboards-covered-snow-mountains.jpg'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\images\closeup-shot-snowboards-covered-snow-mountains.jpg'
+2024-08-29 19:59:49.984 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/images/closeup-shot-snowboards-covered-snow-mountains.jpg - - - 200 5695957 image/jpeg 122.1492ms
+2024-08-29 19:59:49.985 +02:00 [INF] Executing endpoint 'Blazor initializers'
+2024-08-29 19:59:49.990 +02:00 [INF] Executed endpoint 'Blazor initializers'
+2024-08-29 19:59:49.990 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_blazor/initializers - - - 200 - application/json;+charset=utf-8 14.0237ms
+2024-08-29 19:59:50.010 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-29 19:59:50.017 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:59:50.031 +02:00 [INF] Sending file. Request path: '/css/open-iconic/font/fonts/open-iconic.woff'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\open-iconic\font\fonts\open-iconic.woff'
+2024-08-29 19:59:50.031 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/open-iconic/font/fonts/open-iconic.woff - - - 200 14984 application/font-woff 21.1742ms
+2024-08-29 19:59:50.032 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7000/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-29 19:59:50.032 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:59:50.034 +02:00 [INF] Executing endpoint '/_blazor/negotiate'
+2024-08-29 19:59:50.051 +02:00 [INF] Executed endpoint '/_blazor/negotiate'
+2024-08-29 19:59:50.051 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7000/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 19.5253ms
+2024-08-29 19:59:50.066 +02:00 [INF] Sending file. Request path: '/css/images/ropeway-with-snow-covered-alps.jpg'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\images\ropeway-with-snow-covered-alps.jpg'
+2024-08-29 19:59:50.067 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/images/ropeway-with-snow-covered-alps.jpg - - - 200 17712899 image/jpeg 209.8817ms
+2024-08-29 19:59:50.083 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7000/_blazor?id=U14gbeET8QYDnca6Wb0qlA - -
+2024-08-29 19:59:50.083 +02:00 [INF] CORS policy execution successful.
+2024-08-29 19:59:50.083 +02:00 [INF] Executing endpoint '/_blazor'
+2024-08-29 20:05:29.580 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 20:05:29.747 +02:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 20:05:29.758 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 20:05:29.865 +02:00 [INF] User profile is available. Using 'C:\Users\KamilSarzyniak\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-29 20:05:30.257 +02:00 [INF] Now listening on: https://localhost:7000
+2024-08-29 20:05:30.257 +02:00 [INF] Now listening on: http://localhost:5023
+2024-08-29 20:05:30.262 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 20:05:30.262 +02:00 [INF] Hosting environment: Development
+2024-08-29 20:05:30.262 +02:00 [INF] Content root path: C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\
+2024-08-29 20:05:30.650 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/ - -
+2024-08-29 20:05:30.701 +02:00 [INF] Executing endpoint '/_Host'
+2024-08-29 20:05:30.717 +02:00 [INF] Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-29 20:05:30.730 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-08-29 20:05:30.730 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-29 20:05:31.101 +02:00 [INF] Executed page /_Host in 378.7567ms
+2024-08-29 20:05:31.103 +02:00 [INF] Executed endpoint '/_Host'
+2024-08-29 20:05:31.129 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/RentalManager.BlazorServer.styles.css - -
+2024-08-29 20:05:31.129 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/bootstrap/bootstrap.min.css - -
+2024-08-29 20:05:31.130 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-29 20:05:31.129 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-29 20:05:31.130 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/site.css - -
+2024-08-29 20:05:31.130 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/images/ropeway-with-snow-covered-alps.jpg - -
+2024-08-29 20:05:31.150 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/images/closeup-shot-snowboards-covered-snow-mountains.jpg - -
+2024-08-29 20:05:31.160 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_framework/blazor.server.js - -
+2024-08-29 20:05:31.162 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_framework/aspnetcore-browser-refresh.js - -
+2024-08-29 20:05:31.163 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_vs/browserLink - -
+2024-08-29 20:05:31.175 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/ - - - 200 - text/html;+charset=utf-8 528.6432ms
+2024-08-29 20:05:31.175 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_framework/aspnetcore-browser-refresh.js - - - 200 12384 application/javascript;+charset=utf-8 10.5116ms
+2024-08-29 20:05:31.178 +02:00 [INF] Sending file. Request path: '/_framework/blazor.server.js'. Physical path: 'N/A'
+2024-08-29 20:05:31.183 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_framework/blazor.server.js - - - 200 132176 application/javascript 22.3844ms
+2024-08-29 20:05:31.228 +02:00 [INF] Sending file. Request path: '/RentalManager.BlazorServer.styles.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\obj\Debug\net6.0\scopedcss\bundle\RentalManager.BlazorServer.styles.css'
+2024-08-29 20:05:31.228 +02:00 [INF] Sending file. Request path: '/_content/MudBlazor/MudBlazor.min.js'. Physical path: 'C:\Users\KamilSarzyniak\.nuget\packages\mudblazor\7.6.0\staticwebassets\MudBlazor.min.js'
+2024-08-29 20:05:31.228 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\site.css'
+2024-08-29 20:05:31.230 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/RentalManager.BlazorServer.styles.css - - - 200 2873 text/css 100.3268ms
+2024-08-29 20:05:31.247 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/site.css - - - 200 2810 text/css 117.2029ms
+2024-08-29 20:05:31.247 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.js - - - 200 49649 application/javascript 117.2715ms
+2024-08-29 20:05:31.247 +02:00 [INF] Sending file. Request path: '/css/bootstrap/bootstrap.min.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\bootstrap\bootstrap.min.css'
+2024-08-29 20:05:31.247 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/bootstrap/bootstrap.min.css - - - 200 162726 text/css 117.7947ms
+2024-08-29 20:05:31.260 +02:00 [INF] Sending file. Request path: '/_content/MudBlazor/MudBlazor.min.css'. Physical path: 'C:\Users\KamilSarzyniak\.nuget\packages\mudblazor\7.6.0\staticwebassets\MudBlazor.min.css'
+2024-08-29 20:05:31.260 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_content/MudBlazor/MudBlazor.min.css - - - 200 580200 text/css 130.5831ms
+2024-08-29 20:05:31.265 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 102.6284ms
+2024-08-29 20:05:31.266 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-29 20:05:31.268 +02:00 [INF] Sending file. Request path: '/css/open-iconic/font/css/open-iconic-bootstrap.min.css'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css'
+2024-08-29 20:05:31.269 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 200 9395 text/css 2.9453ms
+2024-08-29 20:05:31.295 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/_blazor/initializers - -
+2024-08-29 20:05:31.299 +02:00 [INF] Executing endpoint 'Blazor initializers'
+2024-08-29 20:05:31.306 +02:00 [INF] Executed endpoint 'Blazor initializers'
+2024-08-29 20:05:31.306 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/_blazor/initializers - - - 200 - application/json;+charset=utf-8 10.8057ms
+2024-08-29 20:05:31.310 +02:00 [INF] Sending file. Request path: '/css/images/closeup-shot-snowboards-covered-snow-mountains.jpg'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\images\closeup-shot-snowboards-covered-snow-mountains.jpg'
+2024-08-29 20:05:31.310 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/images/closeup-shot-snowboards-covered-snow-mountains.jpg - - - 200 5695957 image/jpeg 160.1249ms
+2024-08-29 20:05:31.320 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7000/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-29 20:05:31.329 +02:00 [INF] CORS policy execution successful.
+2024-08-29 20:05:31.333 +02:00 [INF] Sending file. Request path: '/css/open-iconic/font/fonts/open-iconic.woff'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\open-iconic\font\fonts\open-iconic.woff'
+2024-08-29 20:05:31.333 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/open-iconic/font/fonts/open-iconic.woff - - - 200 14984 application/font-woff 13.0953ms
+2024-08-29 20:05:31.356 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7000/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-29 20:05:31.356 +02:00 [INF] CORS policy execution successful.
+2024-08-29 20:05:31.358 +02:00 [INF] Executing endpoint '/_blazor/negotiate'
+2024-08-29 20:05:31.375 +02:00 [INF] Sending file. Request path: '/css/images/ropeway-with-snow-covered-alps.jpg'. Physical path: 'C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.BlazorServer\wwwroot\css\images\ropeway-with-snow-covered-alps.jpg'
+2024-08-29 20:05:31.375 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7000/css/images/ropeway-with-snow-covered-alps.jpg - - - 200 17712899 image/jpeg 245.0632ms
+2024-08-29 20:05:31.375 +02:00 [INF] Executed endpoint '/_blazor/negotiate'
+2024-08-29 20:05:31.376 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7000/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 19.5439ms
+2024-08-29 20:05:31.414 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7000/_blazor?id=WraO0grWa-u2C2reXixL_w - -
+2024-08-29 20:05:31.415 +02:00 [INF] CORS policy execution successful.
+2024-08-29 20:05:31.415 +02:00 [INF] Executing endpoint '/_blazor'

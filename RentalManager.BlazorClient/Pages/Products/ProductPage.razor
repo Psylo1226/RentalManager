@@ -1,0 +1,140 @@
+﻿@page "/products"
+@using RentalManager.BlazorClient.Services
+@using RentalManager.Domain.Models
+@inject NavigationManager Navigation
+@inject ProductService ProductService
+
+<h3>Zarządzaj Produktami</h3>
+
+<div>
+    <h4>Produkty:</h4>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nazwa Produktu</th>
+            <th>Cena</th>
+            <th>Ilość</th>
+        </tr>
+        </thead>
+        <tbody>
+        @if(_products == null)
+        {
+            <tr>
+                <td>Brak produktów</td>
+            </tr>
+        }
+        else
+        {
+            @foreach (var product in _products)
+            {
+                <tr>
+                    <td>@product.ProductId</td>
+                    <td>@product.ProductName</td>
+                    <td>@product.Price</td>
+                    <td>@product.QuantityInStock</td>
+                    <button @onclick="() => NavigateToProductDetails(product.ProductId)" class="btn btn-sm btn-info">Informacje o produkcie</button>
+                </tr>
+            }
+        }
+        </tbody>
+    </table>
+</div>
+
+<EditForm Model="@_newProduct" OnValidSubmit="AddProduct">
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
+    <thead>
+    <tr>
+        <th>Nazwa</th>
+        <th>Opis</th>
+        <th>Cena</th>
+        <th>Ilość w magazynie</th>
+        <th>Typ produktu</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            <div class="form-group">
+                <InputText @bind-Value="@_newProduct.ProductName" class="form-control"/>
+                <ValidationMessage For="@(() => _newProduct.ProductName)"/>
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <InputText @bind-Value="@_newProduct.Description" class="form-control"/>
+                <ValidationMessage For="@(() => _newProduct.Description)"/>
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <InputNumber @bind-Value="@_newProduct.Price" class="form-control"/>
+                <ValidationMessage For="@(() => _newProduct.Price)"/>
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <InputNumber @bind-Value="@_newProduct.Quantity" class="form-control"/>
+                <ValidationMessage For="@(() => _newProduct.Quantity)"/>
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <InputText @bind-Value="@_newProduct.TypeName" class="form-control"/>
+
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <label></label>
+                <button type="submit" class="btn btn-primary">Dodaj</button>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</EditForm>
+
+@code {
+    public class ProductDto
+    {
+        public string ProductName { get; set; } = null!;
+        public string Description { get; set; } = null!;
+        public decimal Price { get; set; }
+        public int Quantity { get; set; }
+        public string TypeName { get; set; } = null!;
+    }
+    private IEnumerable<Product>? _products = new List<Product>();
+    private ProductDto _newProduct = new ProductDto();
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            _products = await ProductService.GetProductsAsync();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+
+    private void NavigateToProductDetails(int id)
+    {
+        Navigation.NavigateTo($"/products/{id}");
+    }
+
+    private async Task AddProduct()
+    {
+        try
+        {
+            await ProductService.PostProductAsync(_newProduct);
+            _newProduct = new ProductDto();
+            _products = await ProductService.GetProductsAsync();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+}

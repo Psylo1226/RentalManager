@@ -1,0 +1,285 @@
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.WebAPI.exe
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.WebAPI.deps.json
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.WebAPI.runtimeconfig.json
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.WebAPI.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.WebAPI.pdb
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\NLog.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.Domain.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.Infrastructure.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.SharedKernel.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.Domain.pdb
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.Infrastructure.pdb
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.SharedKernel.pdb
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.csproj.AssemblyReference.cache
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.AssemblyInfoInputs.cache
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.AssemblyInfo.cs
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.RentalManager.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.RentalManager.WebAPI.props
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RentalManager.WebAPI.props
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RentalManager.WebAPI.props
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\scopedcss\bundle\RentalManager.WebAPI.styles.css
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.csproj.CopyComplete
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\refint\RentalManager.WebAPI.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.pdb
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.genruntimeconfig.cache
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\ref\RentalManager.WebAPI.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\appsettings.Development.json
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\appsettings.json
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.WebAPI.exe
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.WebAPI.deps.json
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.WebAPI.runtimeconfig.json
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.WebAPI.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.WebAPI.pdb
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\NLog.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.Domain.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.Infrastructure.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.SharedKernel.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.Domain.pdb
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.Infrastructure.pdb
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.SharedKernel.pdb
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.csproj.AssemblyReference.cache
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.AssemblyInfoInputs.cache
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.AssemblyInfo.cs
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.csproj.CoreCompileInputs.cache
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.RentalManager.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.RentalManager.WebAPI.props
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RentalManager.WebAPI.props
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RentalManager.WebAPI.props
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets.pack.json
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets.build.json
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets.development.json
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\scopedcss\bundle\RentalManager.WebAPI.styles.css
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.csproj.CopyComplete
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\refint\RentalManager.WebAPI.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.pdb
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.genruntimeconfig.cache
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\ref\RentalManager.WebAPI.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\appsettings.Development.json
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\appsettings.json
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.WebAPI.exe
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.WebAPI.deps.json
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.WebAPI.runtimeconfig.json
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.WebAPI.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.WebAPI.pdb
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.Domain.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.Infrastructure.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.SharedKernel.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.Domain.pdb
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.Infrastructure.pdb
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.SharedKernel.pdb
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.csproj.AssemblyReference.cache
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.AssemblyInfoInputs.cache
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.AssemblyInfo.cs
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.csproj.CoreCompileInputs.cache
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.sourcelink.json
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets.build.json
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets.development.json
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.RentalManager.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.RentalManager.WebAPI.props
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RentalManager.WebAPI.props
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RentalManager.WebAPI.props
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets.pack.json
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\scopedcss\bundle\RentalManager.WebAPI.styles.css
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalMa.75C002AB.Up2Date
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\refint\RentalManager.WebAPI.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.pdb
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.genruntimeconfig.cache
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\obj\Debug\net6.0\ref\RentalManager.WebAPI.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Serilog.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\Serilog.Sinks.File.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\appsettings.json
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.WebAPI.exe
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.WebAPI.deps.json
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.WebAPI.runtimeconfig.json
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.WebAPI.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.WebAPI.pdb
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Serilog.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.Domain.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.Infrastructure.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.SharedKernel.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.Domain.pdb
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.Infrastructure.pdb
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\bin\Debug\net6.0\RentalManager.SharedKernel.pdb
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.csproj.AssemblyReference.cache
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.AssemblyInfoInputs.cache
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.AssemblyInfo.cs
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.csproj.CoreCompileInputs.cache
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.RentalManager.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.RentalManager.WebAPI.props
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RentalManager.WebAPI.props
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RentalManager.WebAPI.props
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\obj\Debug\net6.0\scopedcss\bundle\RentalManager.WebAPI.styles.css
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.csproj.CopyComplete
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\obj\Debug\net6.0\refint\RentalManager.WebAPI.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.pdb
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\obj\Debug\net6.0\RentalManager.WebAPI.genruntimeconfig.cache
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\obj\Debug\net6.0\ref\RentalManager.WebAPI.dll

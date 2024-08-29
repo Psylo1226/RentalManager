@@ -1,0 +1,1266 @@
+2024-08-26 17:02:37.0427 Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-26 17:02:37.7618 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (127ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 17:02:37.7711 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 17:02:38.4966 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using 'C:\Users\DETO_NAT_OR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 17:02:39.8351 Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2024-08-26 17:02:39.8351 Microsoft.Hosting.Lifetime Hosting environment: Development
+2024-08-26 17:02:39.8351 Microsoft.Hosting.Lifetime Content root path: D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\
+2024-08-26 17:02:40.0756 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/ - -
+2024-08-26 17:02:40.2132 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 17:02:40.6585 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 17:02:40.6756 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 17:02:40.6756 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 17:02:41.1077 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/ - -
+2024-08-26 17:02:41.1077 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 17:02:41.1077 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 17:02:41.1077 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 17:02:41.1077 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 17:02:41.3782 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 716.0351ms
+2024-08-26 17:02:41.3782 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 265.8614ms
+2024-08-26 17:02:41.3782 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 17:02:41.3782 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 17:02:41.4529 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/ - - - 200 - text/html;+charset=utf-8 283.5846ms
+2024-08-26 17:02:41.4529 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/ - - - 200 - text/html;+charset=utf-8 1318.4784ms
+2024-08-26 17:02:41.4626 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-26 17:02:41.4626 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-26 17:02:41.4626 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-26 17:02:41.4626 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-26 17:02:41.4878 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-26 17:02:41.4878 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /RentalManager.BlazorServer.styles.css was not modified
+2024-08-26 17:02:41.4878 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/site.css was not modified
+2024-08-26 17:02:41.4878 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_framework/blazor.server.js was not modified
+2024-08-26 17:02:41.4878 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 304 - text/css 27.5821ms
+2024-08-26 17:02:41.4878 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 304 - application/javascript 27.9608ms
+2024-08-26 17:02:41.4878 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 304 - text/css 27.9650ms
+2024-08-26 17:02:41.4878 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 304 - text/css 27.4800ms
+2024-08-26 17:02:41.5185 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-26 17:02:41.5190 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-26 17:02:41.5190 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.9076ms
+2024-08-26 17:02:41.6524 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-26 17:02:41.6524 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Blazor initializers'
+2024-08-26 17:02:41.6524 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Blazor initializers'
+2024-08-26 17:02:41.6524 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 5.2416ms
+2024-08-26 17:02:41.7615 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-26 17:02:41.7615 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 17:02:41.7615 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-26 17:02:41.7685 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 17:02:41.7685 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-26 17:02:41.7685 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor/negotiate'
+2024-08-26 17:02:41.8136 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 52.0408ms
+2024-08-26 17:02:41.9777 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/favicon.ico - -
+2024-08-26 17:02:41.9777 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /favicon.ico was not modified
+2024-08-26 17:02:41.9777 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/favicon.ico - - - 304 - image/x-icon 0.5529ms
+2024-08-26 17:02:41.9777 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor/negotiate'
+2024-08-26 17:02:41.9777 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 211.5528ms
+2024-08-26 17:02:41.9777 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=bYP_2tA0Hogspdt6yp82Uw - -
+2024-08-26 17:02:41.9777 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 17:02:41.9777 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor'
+2024-08-26 17:14:05.8375 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/ - -
+2024-08-26 17:14:05.8375 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 17:14:05.8375 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 17:14:05.8375 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 17:14:05.8375 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 17:14:05.8498 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 10.5421ms
+2024-08-26 17:14:05.8498 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 17:14:05.8498 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/ - - - 200 - text/html;+charset=utf-8 12.5644ms
+2024-08-26 17:14:05.8696 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor'
+2024-08-26 17:14:05.8696 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=bYP_2tA0Hogspdt6yp82Uw - - - 101 - - 683885.3957ms
+2024-08-26 17:14:05.8858 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-26 17:14:05.8858 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/site.css was not modified
+2024-08-26 17:14:05.8858 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-26 17:14:05.8858 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-26 17:14:05.8858 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 304 - text/css 0.3663ms
+2024-08-26 17:14:05.8858 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_framework/blazor.server.js was not modified
+2024-08-26 17:14:05.8858 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-26 17:14:05.8858 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /RentalManager.BlazorServer.styles.css was not modified
+2024-08-26 17:14:05.8858 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 304 - application/javascript 0.2131ms
+2024-08-26 17:14:05.8858 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-26 17:14:05.8858 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 304 - text/css 0.1967ms
+2024-08-26 17:14:05.8858 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 304 - text/css 0.1587ms
+2024-08-26 17:14:05.8933 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-26 17:14:05.8933 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-26 17:14:05.8933 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.3737ms
+2024-08-26 17:14:05.8933 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-26 17:14:05.8933 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-26 17:14:05.8933 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 17:14:05.8933 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Blazor initializers'
+2024-08-26 17:14:05.8933 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-26 17:14:05.8933 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 0.4545ms
+2024-08-26 17:14:05.8933 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Blazor initializers'
+2024-08-26 17:14:05.8933 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 0.5440ms
+2024-08-26 17:14:05.9315 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-26 17:14:05.9315 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 17:14:05.9315 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/favicon.ico - -
+2024-08-26 17:14:05.9315 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /favicon.ico was not modified
+2024-08-26 17:14:05.9315 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/favicon.ico - - - 304 - image/x-icon 0.4276ms
+2024-08-26 17:14:05.9315 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor/negotiate'
+2024-08-26 17:14:05.9315 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor/negotiate'
+2024-08-26 17:14:05.9315 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 3.0690ms
+2024-08-26 17:14:05.9417 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=N0udng-gWJ3Q8wsByA8nuQ - -
+2024-08-26 17:14:05.9417 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 17:14:05.9417 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor'
+2024-08-26 17:49:16.8679 Microsoft.Hosting.Lifetime Application is shutting down...
+2024-08-26 17:49:16.8679 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor'
+2024-08-26 17:49:16.8679 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=N0udng-gWJ3Q8wsByA8nuQ - - - 101 - - 2110935.4096ms
+2024-08-26 18:06:58.5706 Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-26 18:06:58.8353 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 18:06:58.8353 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 18:06:58.9000 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using 'C:\Users\DETO_NAT_OR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 18:06:59.0434 Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2024-08-26 18:06:59.0434 Microsoft.Hosting.Lifetime Hosting environment: Development
+2024-08-26 18:06:59.0434 Microsoft.Hosting.Lifetime Content root path: D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\
+2024-08-26 18:06:59.0605 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/ - -
+2024-08-26 18:06:59.0788 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 18:06:59.0899 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 18:06:59.1006 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 18:06:59.1006 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 18:06:59.3382 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 244.9865ms
+2024-08-26 18:06:59.3382 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 18:06:59.3495 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/ - - - 200 - text/html;+charset=utf-8 290.4256ms
+2024-08-26 18:06:59.5524 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-26 18:06:59.5524 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:06:59.5524 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor/negotiate'
+2024-08-26 18:06:59.5719 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor/negotiate'
+2024-08-26 18:06:59.5719 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 19.8508ms
+2024-08-26 18:06:59.5719 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=K8uvZpsGX4c66zWmTts_KA - -
+2024-08-26 18:06:59.5719 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:06:59.5719 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor'
+2024-08-26 18:07:02.3066 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor'
+2024-08-26 18:07:02.3066 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=K8uvZpsGX4c66zWmTts_KA - - - 101 - - 2730.6845ms
+2024-08-26 18:07:02.3267 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/ - -
+2024-08-26 18:07:02.3267 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 18:07:02.3267 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 18:07:02.3267 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 18:07:02.3267 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 18:07:02.3364 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 9.0018ms
+2024-08-26 18:07:02.3364 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 18:07:02.3364 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/ - - - 200 - text/html;+charset=utf-8 10.0745ms
+2024-08-26 18:07:02.3953 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-26 18:07:02.3953 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-26 18:07:02.3953 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-26 18:07:02.3953 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-26 18:07:02.3953 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-26 18:07:02.3953 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/images/ropeway-with-snow-covered-alps.jpg - -
+2024-08-26 18:07:02.3953 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-26 18:07:02.4092 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/site.css was not modified
+2024-08-26 18:07:02.4092 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-26 18:07:02.4092 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/_content/MudBlazor/MudBlazor.min.js'. Physical path: 'C:\Users\DETO_NAT_OR\.nuget\packages\mudblazor\7.6.0\staticwebassets\MudBlazor.min.js'
+2024-08-26 18:07:02.4092 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/RentalManager.BlazorServer.styles.css'. Physical path: 'D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\scopedcss\bundle\RentalManager.BlazorServer.styles.css'
+2024-08-26 18:07:02.4092 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_framework/blazor.server.js was not modified
+2024-08-26 18:07:02.4092 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 200 2873 text/css 12.2771ms
+2024-08-26 18:07:02.4092 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 304 - application/javascript 12.3495ms
+2024-08-26 18:07:02.4092 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 304 - text/css 14.7610ms
+2024-08-26 18:07:02.4092 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 304 - text/css 14.1121ms
+2024-08-26 18:07:02.4092 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - - - 200 49649 application/javascript 13.8698ms
+2024-08-26 18:07:02.4092 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/_content/MudBlazor/MudBlazor.min.css'. Physical path: 'C:\Users\DETO_NAT_OR\.nuget\packages\mudblazor\7.6.0\staticwebassets\MudBlazor.min.css'
+2024-08-26 18:07:02.4092 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - - - 200 580200 text/css 20.9645ms
+2024-08-26 18:07:02.4257 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-26 18:07:02.4257 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-26 18:07:02.4257 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.5401ms
+2024-08-26 18:07:02.5825 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/css/images/ropeway-with-snow-covered-alps.jpg'. Physical path: 'D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\wwwroot\css\images\ropeway-with-snow-covered-alps.jpg'
+2024-08-26 18:07:02.5973 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/images/ropeway-with-snow-covered-alps.jpg - - - 200 17712899 image/jpeg 199.4452ms
+2024-08-26 18:07:02.6311 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-26 18:07:02.6311 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Blazor initializers'
+2024-08-26 18:07:02.6311 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Blazor initializers'
+2024-08-26 18:07:02.6311 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 5.6622ms
+2024-08-26 18:07:02.6311 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-26 18:07:02.6438 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:07:02.6438 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-26 18:07:02.6438 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 0.5116ms
+2024-08-26 18:07:02.6438 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-26 18:07:02.6438 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:07:02.6438 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor/negotiate'
+2024-08-26 18:07:02.6438 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor/negotiate'
+2024-08-26 18:07:02.6438 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 0.6591ms
+2024-08-26 18:07:02.9109 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=nHM8Hsa_bH79uCM1InuCQA - -
+2024-08-26 18:07:02.9109 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/favicon.ico - -
+2024-08-26 18:07:02.9109 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:07:02.9109 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor'
+2024-08-26 18:07:02.9109 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /favicon.ico was not modified
+2024-08-26 18:07:02.9109 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/favicon.ico - - - 304 - image/x-icon 0.4442ms
+2024-08-26 18:07:46.4244 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/ - -
+2024-08-26 18:07:46.4244 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 18:07:46.4261 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 18:07:46.4261 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 18:07:46.4261 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 18:07:46.4261 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 7.0579ms
+2024-08-26 18:07:46.4261 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 18:07:46.4261 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/ - - - 200 - text/html;+charset=utf-8 8.9445ms
+2024-08-26 18:07:46.4435 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor'
+2024-08-26 18:07:46.4435 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=nHM8Hsa_bH79uCM1InuCQA - - - 101 - - 43532.7353ms
+2024-08-26 18:07:46.4708 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-26 18:07:46.4708 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-26 18:07:46.4708 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-26 18:07:46.4708 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-26 18:07:46.4708 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-26 18:07:46.4708 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-26 18:07:46.4708 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/images/ropeway-with-snow-covered-alps.jpg - -
+2024-08-26 18:07:46.4708 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-26 18:07:46.4708 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /RentalManager.BlazorServer.styles.css was not modified
+2024-08-26 18:07:46.4708 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/site.css was not modified
+2024-08-26 18:07:46.4708 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.js was not modified
+2024-08-26 18:07:46.4708 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_framework/blazor.server.js was not modified
+2024-08-26 18:07:46.4708 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/images/ropeway-with-snow-covered-alps.jpg was not modified
+2024-08-26 18:07:46.4708 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.css was not modified
+2024-08-26 18:07:46.4708 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - - - 304 - application/javascript 0.2354ms
+2024-08-26 18:07:46.4708 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 304 - text/css 0.3572ms
+2024-08-26 18:07:46.4708 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/images/ropeway-with-snow-covered-alps.jpg - - - 304 - image/jpeg 0.1924ms
+2024-08-26 18:07:46.4708 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 304 - text/css 0.3572ms
+2024-08-26 18:07:46.4708 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 304 - application/javascript 0.2064ms
+2024-08-26 18:07:46.4708 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - - - 304 - text/css 0.2874ms
+2024-08-26 18:07:46.4708 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 304 - text/css 0.3589ms
+2024-08-26 18:07:46.4816 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-26 18:07:46.4816 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-26 18:07:46.4816 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.3726ms
+2024-08-26 18:07:46.4945 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-26 18:07:46.4945 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Blazor initializers'
+2024-08-26 18:07:46.4945 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Blazor initializers'
+2024-08-26 18:07:46.4945 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 0.7106ms
+2024-08-26 18:07:46.5084 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-26 18:07:46.5084 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:07:46.5084 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-26 18:07:46.5084 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 0.3944ms
+2024-08-26 18:07:46.5084 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-26 18:07:46.5084 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:07:46.5084 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor/negotiate'
+2024-08-26 18:07:46.5084 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor/negotiate'
+2024-08-26 18:07:46.5084 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 2.2089ms
+2024-08-26 18:07:46.5300 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=k_3thtfWno2K-N1u23kviQ - -
+2024-08-26 18:07:46.5300 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:07:46.5300 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor'
+2024-08-26 18:07:46.6534 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/favicon.ico - -
+2024-08-26 18:07:46.6534 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /favicon.ico was not modified
+2024-08-26 18:07:46.6534 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/favicon.ico - - - 304 - image/x-icon 0.4593ms
+2024-08-26 18:07:59.6372 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/ - -
+2024-08-26 18:07:59.6372 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 18:07:59.6372 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 18:07:59.6372 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 18:07:59.6372 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 18:07:59.6372 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 4.6803ms
+2024-08-26 18:07:59.6372 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 18:07:59.6372 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/ - - - 200 - text/html;+charset=utf-8 6.1885ms
+2024-08-26 18:07:59.6510 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor'
+2024-08-26 18:07:59.6510 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=k_3thtfWno2K-N1u23kviQ - - - 101 - - 13120.9830ms
+2024-08-26 18:07:59.6878 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-26 18:07:59.6878 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-26 18:07:59.6878 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-26 18:07:59.6878 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-26 18:07:59.6878 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-26 18:07:59.6878 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/site.css was not modified
+2024-08-26 18:07:59.6878 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /RentalManager.BlazorServer.styles.css was not modified
+2024-08-26 18:07:59.6878 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-26 18:07:59.6878 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-26 18:07:59.6878 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/images/ropeway-with-snow-covered-alps.jpg - -
+2024-08-26 18:07:59.6878 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.css was not modified
+2024-08-26 18:07:59.6878 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.js was not modified
+2024-08-26 18:07:59.6878 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 304 - text/css 0.4533ms
+2024-08-26 18:07:59.6878 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_framework/blazor.server.js was not modified
+2024-08-26 18:07:59.6878 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 304 - text/css 0.4532ms
+2024-08-26 18:07:59.6878 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - - - 304 - application/javascript 0.2380ms
+2024-08-26 18:07:59.6878 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - - - 304 - text/css 0.2409ms
+2024-08-26 18:07:59.6878 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/images/ropeway-with-snow-covered-alps.jpg was not modified
+2024-08-26 18:07:59.6878 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 304 - text/css 0.4532ms
+2024-08-26 18:07:59.6878 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 304 - application/javascript 0.1536ms
+2024-08-26 18:07:59.6878 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/images/ropeway-with-snow-covered-alps.jpg - - - 304 - image/jpeg 0.2611ms
+2024-08-26 18:07:59.6969 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-26 18:07:59.6969 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-26 18:07:59.6969 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.5327ms
+2024-08-26 18:07:59.7139 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-26 18:07:59.7139 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Blazor initializers'
+2024-08-26 18:07:59.7139 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-26 18:07:59.7139 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:07:59.7139 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Blazor initializers'
+2024-08-26 18:07:59.7139 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 0.5322ms
+2024-08-26 18:07:59.7139 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-26 18:07:59.7139 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 0.3712ms
+2024-08-26 18:07:59.7267 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-26 18:07:59.7267 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:07:59.7267 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor/negotiate'
+2024-08-26 18:07:59.7267 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor/negotiate'
+2024-08-26 18:07:59.7267 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 3.6052ms
+2024-08-26 18:07:59.7607 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/favicon.ico - -
+2024-08-26 18:07:59.7607 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /favicon.ico was not modified
+2024-08-26 18:07:59.7607 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=Mom5TitrbKxwgERNfPMFRg - -
+2024-08-26 18:07:59.7607 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:07:59.7607 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/favicon.ico - - - 304 - image/x-icon 0.5131ms
+2024-08-26 18:07:59.7607 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor'
+2024-08-26 18:10:31.3054 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/counter - -
+2024-08-26 18:10:31.3054 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 18:10:31.3054 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 18:10:31.3054 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 18:10:31.3054 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 18:10:31.3154 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 6.9426ms
+2024-08-26 18:10:31.3154 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 18:10:31.3154 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/counter - - - 200 - text/html;+charset=utf-8 10.1847ms
+2024-08-26 18:10:31.3154 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor'
+2024-08-26 18:10:31.3154 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=Mom5TitrbKxwgERNfPMFRg - - - 101 - - 151563.6372ms
+2024-08-26 18:10:31.3773 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-26 18:10:31.3773 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-26 18:10:31.3773 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-26 18:10:31.3773 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-26 18:10:31.3773 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-26 18:10:31.3773 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /RentalManager.BlazorServer.styles.css was not modified
+2024-08-26 18:10:31.3773 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/site.css was not modified
+2024-08-26 18:10:31.3773 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-26 18:10:31.3773 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 304 - text/css 0.1399ms
+2024-08-26 18:10:31.3773 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 304 - text/css 0.3380ms
+2024-08-26 18:10:31.3773 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 304 - text/css 0.1534ms
+2024-08-26 18:10:31.3773 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.css was not modified
+2024-08-26 18:10:31.3773 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.js was not modified
+2024-08-26 18:10:31.3773 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - - - 304 - text/css 0.1940ms
+2024-08-26 18:10:31.3773 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - - - 304 - application/javascript 0.1801ms
+2024-08-26 18:10:31.3800 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-26 18:10:31.3800 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_framework/blazor.server.js was not modified
+2024-08-26 18:10:31.3800 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 304 - application/javascript 0.2703ms
+2024-08-26 18:10:31.3800 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-26 18:10:31.3800 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-26 18:10:31.3800 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.2507ms
+2024-08-26 18:10:31.3959 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-26 18:10:31.3959 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Blazor initializers'
+2024-08-26 18:10:31.3959 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Blazor initializers'
+2024-08-26 18:10:31.3959 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 1.7251ms
+2024-08-26 18:10:31.3959 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-26 18:10:31.3959 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:10:31.3959 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-26 18:10:31.3959 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 0.3910ms
+2024-08-26 18:10:31.3959 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-26 18:10:31.3959 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:10:31.3959 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor/negotiate'
+2024-08-26 18:10:31.3959 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor/negotiate'
+2024-08-26 18:10:31.3959 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 1.1641ms
+2024-08-26 18:10:31.4368 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=qHh3r2oqxxjbh8Vv9yqhpQ - -
+2024-08-26 18:10:31.4368 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:10:31.4368 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor'
+2024-08-26 18:10:32.0117 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/fetchdata - -
+2024-08-26 18:10:32.0117 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 18:10:32.0117 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 18:10:32.0117 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 18:10:32.0117 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 18:10:32.0117 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 1.9725ms
+2024-08-26 18:10:32.0117 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 18:10:32.0117 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/fetchdata - - - 200 - text/html;+charset=utf-8 2.5971ms
+2024-08-26 18:10:32.0215 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor'
+2024-08-26 18:10:32.0215 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=qHh3r2oqxxjbh8Vv9yqhpQ - - - 101 - - 584.7328ms
+2024-08-26 18:10:32.0642 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-26 18:10:32.0642 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-26 18:10:32.0642 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 304 - text/css 0.4032ms
+2024-08-26 18:10:32.0689 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-26 18:10:32.0689 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/site.css was not modified
+2024-08-26 18:10:32.0689 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 304 - text/css 0.3267ms
+2024-08-26 18:10:32.0689 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-26 18:10:32.0689 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-26 18:10:32.0689 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-26 18:10:32.0689 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-26 18:10:32.0689 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_framework/blazor.server.js was not modified
+2024-08-26 18:10:32.0689 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /RentalManager.BlazorServer.styles.css was not modified
+2024-08-26 18:10:32.0689 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.js was not modified
+2024-08-26 18:10:32.0689 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.css was not modified
+2024-08-26 18:10:32.0689 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - - - 304 - application/javascript 0.2738ms
+2024-08-26 18:10:32.0689 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 304 - text/css 0.2863ms
+2024-08-26 18:10:32.0689 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - - - 304 - text/css 0.2896ms
+2024-08-26 18:10:32.0689 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 304 - application/javascript 0.2864ms
+2024-08-26 18:10:32.0689 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-26 18:10:32.0689 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-26 18:10:32.0689 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.5146ms
+2024-08-26 18:10:32.0977 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-26 18:10:32.0977 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Blazor initializers'
+2024-08-26 18:10:32.0977 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Blazor initializers'
+2024-08-26 18:10:32.0977 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 0.3620ms
+2024-08-26 18:10:32.0977 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-26 18:10:32.0977 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:10:32.0977 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-26 18:10:32.0977 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 0.4328ms
+2024-08-26 18:10:32.0977 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-26 18:10:32.0977 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:10:32.0977 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor/negotiate'
+2024-08-26 18:10:32.0977 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor/negotiate'
+2024-08-26 18:10:32.0977 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 0.7002ms
+2024-08-26 18:10:32.1493 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=fd4ttl2lzG0Ybvkaznoa8w - -
+2024-08-26 18:10:32.1493 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:10:32.1493 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor'
+2024-08-26 18:10:32.9007 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/counter - -
+2024-08-26 18:10:32.9007 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 18:10:32.9007 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 18:10:32.9007 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 18:10:32.9007 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 18:10:32.9007 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 3.5932ms
+2024-08-26 18:10:32.9007 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 18:10:32.9007 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/counter - - - 200 - text/html;+charset=utf-8 4.5444ms
+2024-08-26 18:10:32.9189 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor'
+2024-08-26 18:10:32.9189 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=fd4ttl2lzG0Ybvkaznoa8w - - - 101 - - 769.7487ms
+2024-08-26 18:10:33.0239 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-26 18:10:33.0239 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-26 18:10:33.0239 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 304 - text/css 0.2640ms
+2024-08-26 18:10:33.0239 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-26 18:10:33.0239 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-26 18:10:33.0239 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/site.css was not modified
+2024-08-26 18:10:33.0239 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /RentalManager.BlazorServer.styles.css was not modified
+2024-08-26 18:10:33.0239 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 304 - text/css 0.2795ms
+2024-08-26 18:10:33.0239 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 304 - text/css 0.2795ms
+2024-08-26 18:10:33.0239 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-26 18:10:33.0239 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-26 18:10:33.0239 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-26 18:10:33.0239 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_framework/blazor.server.js was not modified
+2024-08-26 18:10:33.0239 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.js was not modified
+2024-08-26 18:10:33.0239 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.css was not modified
+2024-08-26 18:10:33.0239 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - - - 304 - application/javascript 0.2512ms
+2024-08-26 18:10:33.0239 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - - - 304 - text/css 0.2513ms
+2024-08-26 18:10:33.0239 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 304 - application/javascript 0.2438ms
+2024-08-26 18:10:33.0636 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-26 18:10:33.0636 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-26 18:10:33.0636 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.3108ms
+2024-08-26 18:10:33.1174 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-26 18:10:33.1174 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Blazor initializers'
+2024-08-26 18:10:33.1174 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Blazor initializers'
+2024-08-26 18:10:33.1174 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 0.4844ms
+2024-08-26 18:10:33.1174 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-26 18:10:33.1174 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:10:33.1174 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-26 18:10:33.1174 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 0.4259ms
+2024-08-26 18:10:33.1370 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-26 18:10:33.1370 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:10:33.1370 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor/negotiate'
+2024-08-26 18:10:33.1370 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor/negotiate'
+2024-08-26 18:10:33.1370 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 0.5521ms
+2024-08-26 18:10:33.1694 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=IhIglbhopaPg9XSliH0P_Q - -
+2024-08-26 18:10:33.1694 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:10:33.1694 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor'
+2024-08-26 18:11:23.6525 Microsoft.Hosting.Lifetime Application is shutting down...
+2024-08-26 18:11:23.6525 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor'
+2024-08-26 18:11:23.6525 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=IhIglbhopaPg9XSliH0P_Q - - - 101 - - 50487.0051ms
+2024-08-26 18:20:16.8668 Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-26 18:20:17.0174 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 18:20:17.0287 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 18:20:17.0973 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using 'C:\Users\DETO_NAT_OR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 18:20:17.2109 Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2024-08-26 18:20:17.2109 Microsoft.Hosting.Lifetime Hosting environment: Development
+2024-08-26 18:20:17.2109 Microsoft.Hosting.Lifetime Content root path: D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\
+2024-08-26 18:20:17.2301 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/ - -
+2024-08-26 18:20:17.2478 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 18:20:17.2580 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 18:20:17.2580 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 18:20:17.2580 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 18:20:17.4945 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 232.2162ms
+2024-08-26 18:20:17.4945 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 18:20:17.5112 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/ - - - 200 - text/html;+charset=utf-8 281.7491ms
+2024-08-26 18:20:33.0875 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/counter - -
+2024-08-26 18:20:33.0875 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 18:20:33.0875 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 18:20:33.0875 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 18:20:33.0875 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 18:20:33.1034 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 13.0735ms
+2024-08-26 18:20:33.1034 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 18:20:33.1034 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/counter - - - 200 - text/html;+charset=utf-8 16.8575ms
+2024-08-26 18:20:33.1445 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-26 18:20:33.1445 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-26 18:20:33.1445 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-26 18:20:33.1445 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-26 18:20:33.1445 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-26 18:20:33.1445 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-26 18:20:33.1445 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_framework/blazor.server.js was not modified
+2024-08-26 18:20:33.1445 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /RentalManager.BlazorServer.styles.css was not modified
+2024-08-26 18:20:33.1445 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.js was not modified
+2024-08-26 18:20:33.1445 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/site.css was not modified
+2024-08-26 18:20:33.1445 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-26 18:20:33.1445 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.css was not modified
+2024-08-26 18:20:33.1445 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 304 - text/css 13.5142ms
+2024-08-26 18:20:33.1445 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - - - 304 - application/javascript 12.9223ms
+2024-08-26 18:20:33.1445 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 304 - text/css 13.5142ms
+2024-08-26 18:20:33.1445 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - - - 304 - text/css 12.8558ms
+2024-08-26 18:20:33.1445 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 304 - text/css 13.5116ms
+2024-08-26 18:20:33.1445 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 304 - application/javascript 12.9924ms
+2024-08-26 18:20:33.1799 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-26 18:20:33.1799 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-26 18:20:33.1799 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.7177ms
+2024-08-26 18:20:33.1799 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-26 18:20:33.1799 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Blazor initializers'
+2024-08-26 18:20:33.1799 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Blazor initializers'
+2024-08-26 18:20:33.1902 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 4.1787ms
+2024-08-26 18:20:33.1902 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-26 18:20:33.1902 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:20:33.1902 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-26 18:20:33.1902 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 5.3138ms
+2024-08-26 18:20:33.1902 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-26 18:20:33.1902 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:20:33.1902 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor/negotiate'
+2024-08-26 18:20:33.2199 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor/negotiate'
+2024-08-26 18:20:33.2199 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 17.0577ms
+2024-08-26 18:20:33.2222 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/favicon.ico - -
+2024-08-26 18:20:33.2222 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /favicon.ico was not modified
+2024-08-26 18:20:33.2222 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/favicon.ico - - - 304 - image/x-icon 0.3996ms
+2024-08-26 18:20:33.2222 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=0OrIX0NCHvmpcmmmQTjYag - -
+2024-08-26 18:20:33.2222 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:20:33.2222 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor'
+2024-08-26 18:20:34.2397 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/images/ropeway-with-snow-covered-alps.jpg - -
+2024-08-26 18:20:34.2397 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/images/ropeway-with-snow-covered-alps.jpg was not modified
+2024-08-26 18:20:34.2397 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/images/ropeway-with-snow-covered-alps.jpg - - - 304 - image/jpeg 0.5286ms
+2024-08-26 18:20:34.9630 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/fetchdata - -
+2024-08-26 18:20:34.9630 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 18:20:34.9630 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 18:20:34.9630 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 18:20:34.9630 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 18:20:34.9630 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 4.1642ms
+2024-08-26 18:20:34.9630 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 18:20:34.9630 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/fetchdata - - - 200 - text/html;+charset=utf-8 4.8271ms
+2024-08-26 18:20:34.9867 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor'
+2024-08-26 18:20:34.9867 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=0OrIX0NCHvmpcmmmQTjYag - - - 101 - - 1763.1776ms
+2024-08-26 18:20:35.0190 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-26 18:20:35.0190 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-26 18:20:35.0190 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/site.css was not modified
+2024-08-26 18:20:35.0190 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 304 - text/css 0.4411ms
+2024-08-26 18:20:35.0190 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-26 18:20:35.0190 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 304 - text/css 0.5296ms
+2024-08-26 18:20:35.0190 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-26 18:20:35.0190 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-26 18:20:35.0190 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-26 18:20:35.0190 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-26 18:20:35.0190 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /RentalManager.BlazorServer.styles.css was not modified
+2024-08-26 18:20:35.0190 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_framework/blazor.server.js was not modified
+2024-08-26 18:20:35.0190 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.js was not modified
+2024-08-26 18:20:35.0190 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.css was not modified
+2024-08-26 18:20:35.0190 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 304 - text/css 0.3824ms
+2024-08-26 18:20:35.0190 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - - - 304 - application/javascript 0.3888ms
+2024-08-26 18:20:35.0190 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - - - 304 - text/css 0.3888ms
+2024-08-26 18:20:35.0190 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 304 - application/javascript 0.3887ms
+2024-08-26 18:20:35.0190 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-26 18:20:35.0190 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-26 18:20:35.0190 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.5886ms
+2024-08-26 18:20:35.0368 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-26 18:20:35.0368 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Blazor initializers'
+2024-08-26 18:20:35.0368 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Blazor initializers'
+2024-08-26 18:20:35.0368 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 0.5082ms
+2024-08-26 18:20:35.0368 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-26 18:20:35.0368 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:20:35.0368 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-26 18:20:35.0368 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 0.5128ms
+2024-08-26 18:20:35.0368 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-26 18:20:35.0368 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:20:35.0368 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor/negotiate'
+2024-08-26 18:20:35.0368 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor/negotiate'
+2024-08-26 18:20:35.0368 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 0.9789ms
+2024-08-26 18:20:35.0763 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=EMEYqklSXtulWLIxve-hkw - -
+2024-08-26 18:20:35.0763 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:20:35.0763 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor'
+2024-08-26 18:20:35.9979 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/counter - -
+2024-08-26 18:20:35.9979 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 18:20:35.9979 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 18:20:35.9979 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 18:20:35.9979 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 18:20:35.9979 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 2.7804ms
+2024-08-26 18:20:35.9979 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 18:20:35.9979 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/counter - - - 200 - text/html;+charset=utf-8 3.2960ms
+2024-08-26 18:20:36.0096 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor'
+2024-08-26 18:20:36.0096 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=EMEYqklSXtulWLIxve-hkw - - - 101 - - 933.4152ms
+2024-08-26 18:20:36.0570 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-26 18:20:36.0570 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-26 18:20:36.0570 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-26 18:20:36.0570 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/site.css was not modified
+2024-08-26 18:20:36.0570 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 304 - text/css 0.1941ms
+2024-08-26 18:20:36.0570 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 304 - text/css 0.3378ms
+2024-08-26 18:20:36.1110 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-26 18:20:36.1110 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-26 18:20:36.1110 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-26 18:20:36.1110 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-26 18:20:36.1110 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-26 18:20:36.1110 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.js was not modified
+2024-08-26 18:20:36.1110 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /RentalManager.BlazorServer.styles.css was not modified
+2024-08-26 18:20:36.1110 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.css was not modified
+2024-08-26 18:20:36.1110 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - - - 304 - text/css 0.4471ms
+2024-08-26 18:20:36.1110 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 304 - text/css 0.4553ms
+2024-08-26 18:20:36.1110 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.3842ms
+2024-08-26 18:20:36.1110 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - - - 304 - application/javascript 0.4586ms
+2024-08-26 18:20:36.1110 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-26 18:20:36.1110 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_framework/blazor.server.js was not modified
+2024-08-26 18:20:36.1110 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 304 - application/javascript 0.1909ms
+2024-08-26 18:20:36.1343 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-26 18:20:36.1343 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Blazor initializers'
+2024-08-26 18:20:36.1343 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Blazor initializers'
+2024-08-26 18:20:36.1343 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 0.3241ms
+2024-08-26 18:20:36.1343 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-26 18:20:36.1343 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:20:36.1343 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-26 18:20:36.1343 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 0.2548ms
+2024-08-26 18:20:36.1343 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-26 18:20:36.1343 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:20:36.1343 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor/negotiate'
+2024-08-26 18:20:36.1343 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor/negotiate'
+2024-08-26 18:20:36.1343 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 0.5402ms
+2024-08-26 18:20:36.1639 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=t3YFXCGyiqaTvs7pfM-Lsw - -
+2024-08-26 18:20:36.1639 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:20:36.1639 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor'
+2024-08-26 18:20:37.1906 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/fetchdata - -
+2024-08-26 18:20:37.1906 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 18:20:37.1906 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 18:20:37.1906 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 18:20:37.1906 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 18:20:37.1906 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 1.3645ms
+2024-08-26 18:20:37.1906 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 18:20:37.1906 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/fetchdata - - - 200 - text/html;+charset=utf-8 1.7161ms
+2024-08-26 18:20:37.1906 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor'
+2024-08-26 18:20:37.1906 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=t3YFXCGyiqaTvs7pfM-Lsw - - - 101 - - 1035.5258ms
+2024-08-26 18:20:37.2448 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-26 18:20:37.2448 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-26 18:20:37.2448 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-26 18:20:37.2448 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/site.css was not modified
+2024-08-26 18:20:37.2448 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 304 - text/css 0.3999ms
+2024-08-26 18:20:37.2448 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 304 - text/css 0.3070ms
+2024-08-26 18:20:37.2448 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-26 18:20:37.2448 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /RentalManager.BlazorServer.styles.css was not modified
+2024-08-26 18:20:37.2448 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 304 - text/css 0.3315ms
+2024-08-26 18:20:37.2448 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-26 18:20:37.2448 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-26 18:20:37.2448 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-26 18:20:37.2448 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_framework/blazor.server.js was not modified
+2024-08-26 18:20:37.2448 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.css was not modified
+2024-08-26 18:20:37.2448 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.js was not modified
+2024-08-26 18:20:37.2448 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 304 - application/javascript 0.2502ms
+2024-08-26 18:20:37.2448 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - - - 304 - text/css 0.3263ms
+2024-08-26 18:20:37.2448 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - - - 304 - application/javascript 0.3437ms
+2024-08-26 18:20:37.2555 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-26 18:20:37.2555 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-26 18:20:37.2555 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.4656ms
+2024-08-26 18:20:37.2713 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-26 18:20:37.2713 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Blazor initializers'
+2024-08-26 18:20:37.2713 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Blazor initializers'
+2024-08-26 18:20:37.2713 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 0.4854ms
+2024-08-26 18:20:37.2713 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-26 18:20:37.2713 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:20:37.2713 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-26 18:20:37.2713 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 0.3814ms
+2024-08-26 18:20:37.2713 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-26 18:20:37.2713 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:20:37.2713 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor/negotiate'
+2024-08-26 18:20:37.2713 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor/negotiate'
+2024-08-26 18:20:37.2713 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 0.8154ms
+2024-08-26 18:20:37.3176 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=Id3l0015AvJuBb9HbKWt1w - -
+2024-08-26 18:20:37.3176 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:20:37.3176 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor'
+2024-08-26 18:20:40.3134 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/counter - -
+2024-08-26 18:20:40.3134 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 18:20:40.3134 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 18:20:40.3134 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 18:20:40.3134 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 18:20:40.3155 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 1.733ms
+2024-08-26 18:20:40.3155 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 18:20:40.3155 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/counter - - - 200 - text/html;+charset=utf-8 2.3064ms
+2024-08-26 18:20:40.3155 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor'
+2024-08-26 18:20:40.3155 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=Id3l0015AvJuBb9HbKWt1w - - - 101 - - 3004.8127ms
+2024-08-26 18:20:40.3647 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-26 18:20:40.3647 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-26 18:20:40.3647 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/site.css was not modified
+2024-08-26 18:20:40.3647 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-26 18:20:40.3647 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 304 - text/css 0.3346ms
+2024-08-26 18:20:40.3647 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 304 - text/css 0.3394ms
+2024-08-26 18:20:40.3647 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-26 18:20:40.3647 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-26 18:20:40.3647 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-26 18:20:40.3647 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-26 18:20:40.3647 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_framework/blazor.server.js was not modified
+2024-08-26 18:20:40.3647 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /RentalManager.BlazorServer.styles.css was not modified
+2024-08-26 18:20:40.3647 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 304 - text/css 0.2880ms
+2024-08-26 18:20:40.3647 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 304 - application/javascript 0.1371ms
+2024-08-26 18:20:40.3647 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.css was not modified
+2024-08-26 18:20:40.3647 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.js was not modified
+2024-08-26 18:20:40.3647 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - - - 304 - application/javascript 0.3932ms
+2024-08-26 18:20:40.3647 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - - - 304 - text/css 0.3696ms
+2024-08-26 18:20:40.3647 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-26 18:20:40.3647 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-26 18:20:40.3647 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.2665ms
+2024-08-26 18:20:40.3827 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-26 18:20:40.3827 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Blazor initializers'
+2024-08-26 18:20:40.3827 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Blazor initializers'
+2024-08-26 18:20:40.3827 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 0.3791ms
+2024-08-26 18:20:40.3827 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-26 18:20:40.3827 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:20:40.3827 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-26 18:20:40.3827 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 0.3278ms
+2024-08-26 18:20:40.3952 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-26 18:20:40.3952 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:20:40.3952 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor/negotiate'
+2024-08-26 18:20:40.3952 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor/negotiate'
+2024-08-26 18:20:40.3952 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 0.5166ms
+2024-08-26 18:20:40.4259 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=dHibKjYwbfr9WJ1N3Tfmvw - -
+2024-08-26 18:20:40.4259 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:20:40.4259 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor'
+2024-08-26 18:21:24.1025 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/counter - -
+2024-08-26 18:21:24.1025 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 18:21:24.1025 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 18:21:24.1025 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 18:21:24.1025 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 18:21:24.1025 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 5.3831ms
+2024-08-26 18:21:24.1025 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 18:21:24.1025 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/counter - - - 200 - text/html;+charset=utf-8 7.8402ms
+2024-08-26 18:21:24.1161 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor'
+2024-08-26 18:21:24.1161 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=dHibKjYwbfr9WJ1N3Tfmvw - - - 101 - - 43690.2586ms
+2024-08-26 18:21:24.1529 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-26 18:21:24.1529 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-26 18:21:24.1529 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/site.css was not modified
+2024-08-26 18:21:24.1529 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-26 18:21:24.1529 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-26 18:21:24.1529 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-26 18:21:24.1529 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 304 - text/css 0.3705ms
+2024-08-26 18:21:24.1529 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 304 - text/css 0.3706ms
+2024-08-26 18:21:24.1529 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_framework/blazor.server.js was not modified
+2024-08-26 18:21:24.1529 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-26 18:21:24.1529 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-26 18:21:24.1529 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 304 - application/javascript 0.1450ms
+2024-08-26 18:21:24.1529 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /RentalManager.BlazorServer.styles.css was not modified
+2024-08-26 18:21:24.1529 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 304 - text/css 0.2834ms
+2024-08-26 18:21:24.1529 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.css was not modified
+2024-08-26 18:21:24.1529 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.js was not modified
+2024-08-26 18:21:24.1529 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - - - 304 - application/javascript 0.2917ms
+2024-08-26 18:21:24.1529 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - - - 304 - text/css 0.3009ms
+2024-08-26 18:21:24.1641 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-26 18:21:24.1641 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-26 18:21:24.1641 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.3525ms
+2024-08-26 18:21:24.1760 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-26 18:21:24.1760 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Blazor initializers'
+2024-08-26 18:21:24.1760 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Blazor initializers'
+2024-08-26 18:21:24.1760 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 1.1939ms
+2024-08-26 18:21:24.1760 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-26 18:21:24.1760 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:21:24.1760 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-26 18:21:24.1760 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 0.5103ms
+2024-08-26 18:21:24.1932 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-26 18:21:24.1932 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:21:24.1932 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor/negotiate'
+2024-08-26 18:21:24.1932 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor/negotiate'
+2024-08-26 18:21:24.1932 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 1.8118ms
+2024-08-26 18:21:24.2251 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/favicon.ico - -
+2024-08-26 18:21:24.2251 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /favicon.ico was not modified
+2024-08-26 18:21:24.2251 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/favicon.ico - - - 304 - image/x-icon 0.2285ms
+2024-08-26 18:21:24.2251 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=pRE3DI2yw50kDijnup9OgA - -
+2024-08-26 18:21:24.2251 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:21:24.2251 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor'
+2024-08-26 18:21:24.8398 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/images/ropeway-with-snow-covered-alps.jpg - -
+2024-08-26 18:21:24.8398 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/images/ropeway-with-snow-covered-alps.jpg was not modified
+2024-08-26 18:21:24.8398 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/images/ropeway-with-snow-covered-alps.jpg - - - 304 - image/jpeg 0.3810ms
+2024-08-26 18:21:25.4296 Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-26 18:21:25.4296 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 18:21:25.7024 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock"
+FROM "Products" AS "p"
+2024-08-26 18:35:29.4107 Microsoft.Hosting.Lifetime Application is shutting down...
+2024-08-26 18:35:29.4107 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor'
+2024-08-26 18:35:29.4107 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=pRE3DI2yw50kDijnup9OgA - - - 101 - - 845186.7721ms
+2024-08-26 18:35:42.1691 Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-26 18:35:42.2917 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 18:35:42.3005 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 18:35:42.3573 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using 'C:\Users\DETO_NAT_OR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 18:35:42.4662 Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2024-08-26 18:35:42.4662 Microsoft.Hosting.Lifetime Hosting environment: Development
+2024-08-26 18:35:42.4662 Microsoft.Hosting.Lifetime Content root path: D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\
+2024-08-26 18:35:42.4837 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/ - -
+2024-08-26 18:35:42.5037 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 18:35:42.5037 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 18:35:42.5246 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 18:35:42.5246 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 18:35:42.7434 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 226.5884ms
+2024-08-26 18:35:42.7434 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 18:35:42.7434 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/ - - - 200 - text/html;+charset=utf-8 269.5835ms
+2024-08-26 18:35:45.7213 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/products - -
+2024-08-26 18:35:45.7227 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 18:35:45.7227 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 18:35:45.7227 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 18:35:45.7227 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 18:35:45.7227 Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-26 18:35:45.7227 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 18:35:45.9635 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock"
+FROM "Products" AS "p"
+2024-08-26 18:35:45.9771 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 253.5464ms
+2024-08-26 18:35:45.9771 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 18:35:45.9771 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/products - - - 200 - text/html;+charset=utf-8 257.4502ms
+2024-08-26 18:35:46.0117 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-26 18:35:46.0117 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-26 18:35:46.0117 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-26 18:35:46.0117 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-26 18:35:46.0117 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-26 18:35:46.0117 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-26 18:35:46.0240 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_framework/blazor.server.js was not modified
+2024-08-26 18:35:46.0240 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-26 18:35:46.0240 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.css was not modified
+2024-08-26 18:35:46.0240 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /RentalManager.BlazorServer.styles.css was not modified
+2024-08-26 18:35:46.0240 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/site.css was not modified
+2024-08-26 18:35:46.0240 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.js was not modified
+2024-08-26 18:35:46.0240 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 304 - text/css 13.6417ms
+2024-08-26 18:35:46.0240 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - - - 304 - text/css 13.6051ms
+2024-08-26 18:35:46.0240 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 304 - text/css 13.6828ms
+2024-08-26 18:35:46.0240 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - - - 304 - application/javascript 12.0277ms
+2024-08-26 18:35:46.0240 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 304 - text/css 13.6391ms
+2024-08-26 18:35:46.0240 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 304 - application/javascript 11.3045ms
+2024-08-26 18:35:46.0418 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-26 18:35:46.0418 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-26 18:35:46.0418 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.5329ms
+2024-08-26 18:35:46.0418 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-26 18:35:46.0418 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Blazor initializers'
+2024-08-26 18:35:46.0525 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Blazor initializers'
+2024-08-26 18:35:46.0525 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 4.6587ms
+2024-08-26 18:35:46.0525 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-26 18:35:46.0525 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:35:46.0525 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-26 18:35:46.0525 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 5.4408ms
+2024-08-26 18:35:46.0728 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-26 18:35:46.0728 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:35:46.0728 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor/negotiate'
+2024-08-26 18:35:46.0882 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor/negotiate'
+2024-08-26 18:35:46.0882 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 15.6070ms
+2024-08-26 18:35:46.0882 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/favicon.ico - -
+2024-08-26 18:35:46.0882 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /favicon.ico was not modified
+2024-08-26 18:35:46.0882 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/favicon.ico - - - 304 - image/x-icon 0.3993ms
+2024-08-26 18:35:46.0882 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=9neePEmbAd5lJSCwdqgMjA - -
+2024-08-26 18:35:46.0882 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:35:46.0882 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor'
+2024-08-26 18:35:46.2312 Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-26 18:35:46.2377 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 18:35:46.2377 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock"
+FROM "Products" AS "p"
+2024-08-26 18:35:46.7728 Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer Unhandled exception rendering component: Cannot provide a value for property 'ProductTypeValidator' on type 'RentalManager.BlazorServer.Pages.ProductTypes.ProductTypes'. There is no registered service of type 'FluentValidation.IValidator`1[RentalManager.Domain.Models.ProductType]'.
+2024-08-26 18:35:46.7728 Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost Unhandled exception in circuit '2F91_LrNNoza8p-8fm0CwrBrqnq3-eMY_YLejBTMJF0'.
+2024-08-26 18:35:46.8951 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor'
+2024-08-26 18:35:46.8951 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=9neePEmbAd5lJSCwdqgMjA - - - 101 - - 800.7685ms
+2024-08-26 18:36:04.7698 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/ - -
+2024-08-26 18:36:04.7698 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 18:36:04.7698 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 18:36:04.7698 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 18:36:04.7698 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 18:36:04.7698 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 2.7767ms
+2024-08-26 18:36:04.7698 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 18:36:04.7698 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/ - - - 200 - text/html;+charset=utf-8 3.4295ms
+2024-08-26 18:36:04.8090 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-26 18:36:04.8090 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-26 18:36:04.8090 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 304 - text/css 0.4012ms
+2024-08-26 18:36:04.8090 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-26 18:36:04.8090 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-26 18:36:04.8090 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /RentalManager.BlazorServer.styles.css was not modified
+2024-08-26 18:36:04.8090 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-26 18:36:04.8090 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 304 - text/css 0.1926ms
+2024-08-26 18:36:04.8090 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-26 18:36:04.8090 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-26 18:36:04.8090 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/images/ropeway-with-snow-covered-alps.jpg - -
+2024-08-26 18:36:04.8090 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/images/ropeway-with-snow-covered-alps.jpg was not modified
+2024-08-26 18:36:04.8090 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/site.css was not modified
+2024-08-26 18:36:04.8090 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.css was not modified
+2024-08-26 18:36:04.8090 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_framework/blazor.server.js was not modified
+2024-08-26 18:36:04.8090 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/images/ropeway-with-snow-covered-alps.jpg - - - 304 - image/jpeg 0.2125ms
+2024-08-26 18:36:04.8090 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 304 - text/css 0.4442ms
+2024-08-26 18:36:04.8090 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - - - 304 - text/css 0.3465ms
+2024-08-26 18:36:04.8090 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 304 - application/javascript 0.2795ms
+2024-08-26 18:36:04.8090 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.js was not modified
+2024-08-26 18:36:04.8090 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - - - 304 - application/javascript 0.4106ms
+2024-08-26 18:36:04.8174 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-26 18:36:04.8174 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-26 18:36:04.8174 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.5119ms
+2024-08-26 18:36:04.8406 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-26 18:36:04.8406 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Blazor initializers'
+2024-08-26 18:36:04.8406 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Blazor initializers'
+2024-08-26 18:36:04.8406 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 0.5148ms
+2024-08-26 18:36:04.8518 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-26 18:36:04.8518 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:36:04.8518 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-26 18:36:04.8518 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 0.5547ms
+2024-08-26 18:36:04.8518 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-26 18:36:04.8518 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:36:04.8518 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor/negotiate'
+2024-08-26 18:36:04.8518 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor/negotiate'
+2024-08-26 18:36:04.8518 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 0.9514ms
+2024-08-26 18:36:05.2260 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/favicon.ico - -
+2024-08-26 18:36:05.2260 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /favicon.ico was not modified
+2024-08-26 18:36:05.2260 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/favicon.ico - - - 304 - image/x-icon 0.5977ms
+2024-08-26 18:36:05.2260 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=SiS6nywoXyJRuhQO_TPXEw - -
+2024-08-26 18:36:05.2260 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:36:05.2260 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor'
+2024-08-26 18:36:07.1716 Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-26 18:36:07.1716 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 18:36:07.1716 Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer Unhandled exception rendering component: Cannot provide a value for property 'ProductTypeValidator' on type 'RentalManager.BlazorServer.Pages.ProductTypes.ProductTypes'. There is no registered service of type 'FluentValidation.IValidator`1[RentalManager.Domain.Models.ProductType]'.
+2024-08-26 18:36:07.1716 Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost Unhandled exception in circuit 'S58MBay4N61KOp54Bob8wOKD7bzCH9iiC85WDmGgja4'.
+2024-08-26 18:36:07.1716 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor'
+2024-08-26 18:36:07.1716 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=SiS6nywoXyJRuhQO_TPXEw - - - 101 - - 1945.3669ms
+2024-08-26 18:36:11.0207 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/producttypes - -
+2024-08-26 18:36:11.0207 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 18:36:11.0207 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 18:36:11.0207 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 18:36:11.0207 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 18:36:11.0207 Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-26 18:36:11.0207 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 18:36:11.0207 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 8.4331ms
+2024-08-26 18:36:11.0207 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 18:36:11.0207 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request.
+2024-08-26 18:36:11.0754 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/producttypes - - - 500 - text/html;+charset=utf-8 54.6865ms
+2024-08-26 18:36:11.1367 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/favicon.ico - -
+2024-08-26 18:36:11.1367 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /favicon.ico was not modified
+2024-08-26 18:36:11.1367 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/favicon.ico - - - 304 - image/x-icon 0.3130ms
+2024-08-26 18:36:36.1194 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/producttypes - -
+2024-08-26 18:36:36.1194 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 18:36:36.1194 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 18:36:36.1194 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 18:36:36.1194 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 18:36:36.1194 Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-26 18:36:36.1194 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 18:36:36.1194 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 5.3365ms
+2024-08-26 18:36:36.1194 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 18:36:36.1194 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request.
+2024-08-26 18:36:36.1315 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/producttypes - - - 500 - text/html;+charset=utf-8 12.1066ms
+2024-08-26 18:36:36.2075 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/favicon.ico - -
+2024-08-26 18:36:36.2075 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /favicon.ico was not modified
+2024-08-26 18:36:36.2075 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/favicon.ico - - - 304 - image/x-icon 0.3929ms
+2024-08-26 18:36:42.9595 Microsoft.Hosting.Lifetime Application is shutting down...
+2024-08-26 18:36:51.3224 Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-26 18:36:51.4609 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 18:36:51.4609 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 18:36:51.5266 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using 'C:\Users\DETO_NAT_OR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 18:36:51.6341 Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2024-08-26 18:36:51.6341 Microsoft.Hosting.Lifetime Hosting environment: Development
+2024-08-26 18:36:51.6341 Microsoft.Hosting.Lifetime Content root path: D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\
+2024-08-26 18:36:51.6516 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/ - -
+2024-08-26 18:36:51.6719 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 18:36:51.6809 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 18:36:51.6913 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 18:36:51.6913 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 18:36:51.9177 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 233.7818ms
+2024-08-26 18:36:51.9177 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 18:36:51.9273 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/ - - - 200 - text/html;+charset=utf-8 277.0246ms
+2024-08-26 18:37:20.7273 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/producttypes - -
+2024-08-26 18:37:20.7273 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 18:37:20.7273 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 18:37:20.7273 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 18:37:20.7273 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 18:37:20.7382 Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-26 18:37:20.7382 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 18:37:20.9592 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-26 18:37:21.0054 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 275.9797ms
+2024-08-26 18:37:21.0054 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 18:37:21.0054 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/producttypes - - - 200 - text/html;+charset=utf-8 283.4070ms
+2024-08-26 18:37:21.0390 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-26 18:37:21.0390 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-26 18:37:21.0390 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-26 18:37:21.0390 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-26 18:37:21.0390 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-26 18:37:21.0390 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-26 18:37:21.0524 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_framework/blazor.server.js was not modified
+2024-08-26 18:37:21.0524 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-26 18:37:21.0524 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.js was not modified
+2024-08-26 18:37:21.0524 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/site.css was not modified
+2024-08-26 18:37:21.0524 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.css was not modified
+2024-08-26 18:37:21.0524 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /RentalManager.BlazorServer.styles.css was not modified
+2024-08-26 18:37:21.0524 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 304 - application/javascript 14.5789ms
+2024-08-26 18:37:21.0524 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 304 - text/css 14.6450ms
+2024-08-26 18:37:21.0524 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - - - 304 - application/javascript 14.5650ms
+2024-08-26 18:37:21.0524 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 304 - text/css 14.8465ms
+2024-08-26 18:37:21.0524 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 304 - text/css 14.8463ms
+2024-08-26 18:37:21.0524 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - - - 304 - text/css 14.6919ms
+2024-08-26 18:37:21.0719 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-26 18:37:21.0719 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-26 18:37:21.0719 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.9530ms
+2024-08-26 18:37:21.0719 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-26 18:37:21.0809 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Blazor initializers'
+2024-08-26 18:37:21.0809 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Blazor initializers'
+2024-08-26 18:37:21.0809 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 3.3321ms
+2024-08-26 18:37:21.0809 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-26 18:37:21.0809 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:37:21.0809 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-26 18:37:21.0809 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 4.7442ms
+2024-08-26 18:37:21.0987 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-26 18:37:21.0987 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:37:21.0987 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor/negotiate'
+2024-08-26 18:37:21.0987 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor/negotiate'
+2024-08-26 18:37:21.0987 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 12.7634ms
+2024-08-26 18:37:21.1157 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/favicon.ico - -
+2024-08-26 18:37:21.1157 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /favicon.ico was not modified
+2024-08-26 18:37:21.1157 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/favicon.ico - - - 304 - image/x-icon 0.4909ms
+2024-08-26 18:37:21.1157 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=0n8vyjDpOyEsGVfZBFbxyA - -
+2024-08-26 18:37:21.1157 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 18:37:21.1157 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor'
+2024-08-26 18:37:21.2508 Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-26 18:37:21.2565 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 18:37:21.2565 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-26 18:37:22.0947 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock"
+FROM "Products" AS "p"
+2024-08-26 18:37:22.7099 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-26 18:37:23.1987 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/images/ropeway-with-snow-covered-alps.jpg - -
+2024-08-26 18:37:23.1987 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/images/ropeway-with-snow-covered-alps.jpg was not modified
+2024-08-26 18:37:23.1987 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/images/ropeway-with-snow-covered-alps.jpg - - - 304 - image/jpeg 0.5027ms
+2024-08-26 18:37:23.9733 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-26 18:37:28.1649 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 5)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "ProductTypes" ("TypeName")
+VALUES (@p0);
+SELECT "ProductTypeId"
+FROM "ProductTypes"
+WHERE changes() = 1 AND "rowid" = last_insert_rowid();
+2024-08-26 18:37:28.2049 RentalManager.Domain.Models.Product Dodanie danych
+2024-08-26 18:37:28.2049 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-26 18:37:33.8795 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 9)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "ProductTypes" ("TypeName")
+VALUES (@p0);
+SELECT "ProductTypeId"
+FROM "ProductTypes"
+WHERE changes() = 1 AND "rowid" = last_insert_rowid();
+2024-08-26 18:37:33.8795 RentalManager.Domain.Models.Product Dodanie danych
+2024-08-26 18:37:33.8795 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-26 18:37:36.8363 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 4)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "ProductTypes" ("TypeName")
+VALUES (@p0);
+SELECT "ProductTypeId"
+FROM "ProductTypes"
+WHERE changes() = 1 AND "rowid" = last_insert_rowid();
+2024-08-26 18:37:36.8363 RentalManager.Domain.Models.Product Dodanie danych
+2024-08-26 18:37:36.8363 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-26 18:37:44.1639 RentalManager.Domain.Models.Product Wystąpił błąd
+2024-08-26 18:37:53.6303 RentalManager.Domain.Models.Product Edycja danych
+2024-08-26 18:37:53.6303 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-26 18:47:58.1337 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock"
+FROM "Products" AS "p"
+2024-08-26 18:58:46.0085 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor'
+2024-08-26 18:58:46.0085 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=0n8vyjDpOyEsGVfZBFbxyA - - - 101 - - 1284889.1720ms
+2024-08-26 19:00:06.1263 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-26 19:00:06.1263 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 19:00:06.1263 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor/negotiate'
+2024-08-26 19:00:06.1263 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor/negotiate'
+2024-08-26 19:00:06.1263 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 1.6683ms
+2024-08-26 19:00:10.8875 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=5bn9PalHMG0pScvdXSQiuw - -
+2024-08-26 19:00:10.8875 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 19:00:10.8875 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor'
+2024-08-26 19:10:15.9596 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor'
+2024-08-26 19:10:15.9596 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=5bn9PalHMG0pScvdXSQiuw - - - 101 - - 605072.3190ms
+2024-08-26 23:49:58.9569 Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-26 23:49:59.4250 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 23:49:59.4393 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 23:49:59.8494 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using 'C:\Users\DETO_NAT_OR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 23:50:00.3890 Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2024-08-26 23:50:00.3890 Microsoft.Hosting.Lifetime Hosting environment: Development
+2024-08-26 23:50:00.3890 Microsoft.Hosting.Lifetime Content root path: D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\
+2024-08-26 23:50:00.4148 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/products - -
+2024-08-26 23:50:00.4148 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/ - -
+2024-08-26 23:50:00.4436 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 23:50:00.4436 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 23:50:00.6248 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 23:50:00.6248 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 23:50:00.6416 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 23:50:00.6416 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 23:50:00.6416 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 23:50:00.6416 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 23:50:00.9112 Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-26 23:50:00.9112 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 23:50:01.0093 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 380.5061ms
+2024-08-26 23:50:01.0093 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 23:50:01.0213 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/ - - - 200 - text/html;+charset=utf-8 608.1078ms
+2024-08-26 23:50:01.2483 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock"
+FROM "Products" AS "p"
+2024-08-26 23:50:01.3448 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 719.7228ms
+2024-08-26 23:50:01.3448 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 23:50:01.3448 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request.
+2024-08-26 23:50:01.5402 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/products - - - 500 - text/html;+charset=utf-8 1127.3735ms
+2024-08-26 23:50:27.7096 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/products - -
+2024-08-26 23:50:27.7096 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 23:50:27.7096 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 23:50:27.7096 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 23:50:27.7096 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 23:50:27.7630 Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-26 23:50:27.7709 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 23:50:27.7709 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock"
+FROM "Products" AS "p"
+2024-08-26 23:50:27.7709 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 67.858ms
+2024-08-26 23:50:27.7709 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 23:50:27.7709 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request.
+2024-08-26 23:50:27.7864 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/products - - - 500 - text/html;+charset=utf-8 76.8313ms
+2024-08-26 23:50:27.8336 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/favicon.ico - -
+2024-08-26 23:50:27.8530 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/favicon.ico'. Physical path: 'D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\wwwroot\favicon.ico'
+2024-08-26 23:50:27.8530 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/favicon.ico - - - 200 5430 image/x-icon 19.5504ms
+2024-08-26 23:50:45.7436 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/ - -
+2024-08-26 23:50:45.7436 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 23:50:45.7436 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 23:50:45.7436 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 23:50:45.7436 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 23:50:45.7436 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 5.3112ms
+2024-08-26 23:50:45.7436 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 23:50:45.7436 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/ - - - 200 - text/html;+charset=utf-8 5.8809ms
+2024-08-26 23:50:45.8103 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-26 23:50:45.8103 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-26 23:50:45.8103 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-26 23:50:45.8103 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-26 23:50:45.8103 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-26 23:50:45.8103 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-26 23:50:45.8103 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/images/ropeway-with-snow-covered-alps.jpg - -
+2024-08-26 23:50:45.8162 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/_framework/blazor.server.js'. Physical path: 'N/A'
+2024-08-26 23:50:45.8162 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 200 132176 application/javascript 6.7020ms
+2024-08-26 23:50:45.8162 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/_content/MudBlazor/MudBlazor.min.js'. Physical path: 'C:\Users\DETO_NAT_OR\.nuget\packages\mudblazor\7.6.0\staticwebassets\MudBlazor.min.js'
+2024-08-26 23:50:45.8162 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/RentalManager.BlazorServer.styles.css'. Physical path: 'D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\obj\Debug\net6.0\scopedcss\bundle\RentalManager.BlazorServer.styles.css'
+2024-08-26 23:50:45.8162 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 200 2873 text/css 9.2787ms
+2024-08-26 23:50:45.8162 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - - - 200 49649 application/javascript 9.3639ms
+2024-08-26 23:50:45.8162 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/css/bootstrap/bootstrap.min.css'. Physical path: 'D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\wwwroot\css\bootstrap\bootstrap.min.css'
+2024-08-26 23:50:45.8162 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/_content/MudBlazor/MudBlazor.min.css'. Physical path: 'C:\Users\DETO_NAT_OR\.nuget\packages\mudblazor\7.6.0\staticwebassets\MudBlazor.min.css'
+2024-08-26 23:50:45.8162 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 200 162720 text/css 15.2685ms
+2024-08-26 23:50:45.8288 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/css/site.css'. Physical path: 'D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\wwwroot\css\site.css'
+2024-08-26 23:50:45.8288 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 200 2810 text/css 18.6287ms
+2024-08-26 23:50:45.8288 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - - - 200 580200 text/css 19.6153ms
+2024-08-26 23:50:45.8288 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-26 23:50:45.8452 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/css/open-iconic/font/css/open-iconic-bootstrap.min.css'. Physical path: 'D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css'
+2024-08-26 23:50:45.8452 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 200 9395 text/css 10.9752ms
+2024-08-26 23:50:45.9777 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-26 23:50:45.9777 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Blazor initializers'
+2024-08-26 23:50:45.9777 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Blazor initializers'
+2024-08-26 23:50:45.9777 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 5.9687ms
+2024-08-26 23:50:46.0037 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/css/images/ropeway-with-snow-covered-alps.jpg'. Physical path: 'D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\wwwroot\css\images\ropeway-with-snow-covered-alps.jpg'
+2024-08-26 23:50:46.0179 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/images/ropeway-with-snow-covered-alps.jpg - - - 200 17712899 image/jpeg 206.4816ms
+2024-08-26 23:50:46.0912 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-26 23:50:46.0912 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 23:50:46.1107 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/css/open-iconic/font/fonts/open-iconic.woff'. Physical path: 'D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\wwwroot\css\open-iconic\font\fonts\open-iconic.woff'
+2024-08-26 23:50:46.1107 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 200 14984 application/font-woff 19.7552ms
+2024-08-26 23:50:46.1107 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-26 23:50:46.1107 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 23:50:46.1107 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor/negotiate'
+2024-08-26 23:50:46.1413 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor/negotiate'
+2024-08-26 23:50:46.1413 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 24.3781ms
+2024-08-26 23:50:46.1856 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=VNtL3Z9hByXgTH_ssHsjIA - -
+2024-08-26 23:50:46.1856 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 23:50:46.1856 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor'
+2024-08-26 23:50:47.4210 Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-26 23:50:47.4210 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 23:50:47.4246 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock"
+FROM "Products" AS "p"
+2024-08-26 23:50:47.4246 Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer Unhandled exception rendering component: Object reference not set to an instance of an object.
+2024-08-26 23:50:47.4246 Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost Unhandled exception in circuit 'Uz_7QJSvznm3uJ87CbdTBPQmJ1OY2Wip_8sL65-bIJ8'.
+2024-08-26 23:50:47.4440 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor'
+2024-08-26 23:50:47.4440 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=VNtL3Z9hByXgTH_ssHsjIA - - - 101 - - 1258.6519ms
+2024-08-26 23:50:51.4162 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/producttypes - -
+2024-08-26 23:50:51.4162 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 23:50:51.4162 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 23:50:51.4162 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 23:50:51.4162 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 23:50:51.4162 Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-26 23:50:51.4162 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 23:50:51.4263 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-26 23:50:51.4573 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 40.7338ms
+2024-08-26 23:50:51.4573 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 23:50:51.4573 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/producttypes - - - 200 - text/html;+charset=utf-8 44.3054ms
+2024-08-26 23:50:51.4879 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-26 23:50:51.4879 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-26 23:50:51.4879 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-26 23:50:51.4879 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-26 23:50:51.4879 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-26 23:50:51.4879 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-26 23:50:51.4879 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/site.css was not modified
+2024-08-26 23:50:51.4879 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /RentalManager.BlazorServer.styles.css was not modified
+2024-08-26 23:50:51.4879 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-26 23:50:51.4879 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.css was not modified
+2024-08-26 23:50:51.4879 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_content/MudBlazor/MudBlazor.min.js was not modified
+2024-08-26 23:50:51.4879 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /_framework/blazor.server.js was not modified
+2024-08-26 23:50:51.4879 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 304 - text/css 9.7903ms
+2024-08-26 23:50:51.4879 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - - - 304 - application/javascript 7.3895ms
+2024-08-26 23:50:51.4879 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 304 - text/css 9.7899ms
+2024-08-26 23:50:51.4879 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 304 - application/javascript 7.3950ms
+2024-08-26 23:50:51.4879 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 304 - text/css 8.0746ms
+2024-08-26 23:50:51.4879 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - - - 304 - text/css 7.3953ms
+2024-08-26 23:50:51.5356 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-26 23:50:51.5356 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-26 23:50:51.5356 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.3337ms
+2024-08-26 23:50:51.5725 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-26 23:50:51.5725 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-26 23:50:51.5725 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 23:50:51.5725 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Blazor initializers'
+2024-08-26 23:50:51.5725 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-26 23:50:51.5725 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Blazor initializers'
+2024-08-26 23:50:51.5725 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 0.4082ms
+2024-08-26 23:50:51.5725 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 0.5347ms
+2024-08-26 23:50:51.6002 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/favicon.ico - -
+2024-08-26 23:50:51.6002 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-26 23:50:51.6002 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 23:50:51.6002 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor/negotiate'
+2024-08-26 23:50:51.6002 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /favicon.ico was not modified
+2024-08-26 23:50:51.6002 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/favicon.ico - - - 304 - image/x-icon 0.3289ms
+2024-08-26 23:50:51.6002 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor/negotiate'
+2024-08-26 23:50:51.6002 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 0.5730ms
+2024-08-26 23:50:51.6002 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=UeSUI0x5jL9d8fjWw-grMQ - -
+2024-08-26 23:50:51.6002 Microsoft.AspNetCore.Cors.Infrastructure.CorsService CORS policy execution successful.
+2024-08-26 23:50:51.6002 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_blazor'
+2024-08-26 23:50:51.6099 Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-26 23:50:51.6099 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 23:50:51.6099 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-26 23:50:52.9078 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock"
+FROM "Products" AS "p"
+2024-08-26 23:50:52.9078 Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer Unhandled exception rendering component: Object reference not set to an instance of an object.
+2024-08-26 23:50:52.9078 Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost Unhandled exception in circuit 'vD5HwZ73b3sQRIM1ia4gdsED51YU1dSIEg9mS71Kjoo'.
+2024-08-26 23:50:52.9078 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_blazor'
+2024-08-26 23:50:52.9078 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=UeSUI0x5jL9d8fjWw-grMQ - - - 101 - - 1304.8367ms
+2024-08-26 23:50:54.8838 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/products - -
+2024-08-26 23:50:54.8838 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 23:50:54.8838 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 23:50:54.8838 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 23:50:54.8838 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 23:50:54.8838 Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-26 23:50:54.8838 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-26 23:50:54.8838 Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock"
+FROM "Products" AS "p"
+2024-08-26 23:50:54.8838 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 4.2531ms
+2024-08-26 23:50:54.8838 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 23:50:54.8838 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request.
+2024-08-26 23:50:54.8936 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/products - - - 500 - text/html;+charset=utf-8 9.7647ms
+2024-08-26 23:50:54.9655 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/favicon.ico - -
+2024-08-26 23:50:54.9655 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /favicon.ico was not modified
+2024-08-26 23:50:54.9655 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/favicon.ico - - - 304 - image/x-icon 0.4866ms
+2024-08-26 23:54:26.4531 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/products - -
+2024-08-26 23:54:26.4531 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/_Host'
+2024-08-26 23:54:26.4531 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-26 23:54:26.4531 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executing an implicit handler method - ModelState is Valid
+2024-08-26 23:54:26.4531 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-26 23:54:26.4531 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker Executed page /_Host in 4.9964ms
+2024-08-26 23:54:26.4531 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/_Host'
+2024-08-26 23:54:26.4531 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request.
+2024-08-26 23:54:26.4531 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/products - - - 500 - text/html;+charset=utf-8 12.1330ms
+2024-08-26 23:54:26.5307 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:44354/favicon.ico - -
+2024-08-26 23:54:26.5311 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The file /favicon.ico was not modified
+2024-08-26 23:54:26.5311 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:44354/favicon.ico - - - 304 - image/x-icon 0.6376ms

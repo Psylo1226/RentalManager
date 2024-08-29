@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RR80Ts0mCoREiucAVLSYnXioE641o3BDnpaSbaQq3YU=",
+  "Source": "RentalManager.WebAPI",
+  "BasePath": "_content/RentalManager.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

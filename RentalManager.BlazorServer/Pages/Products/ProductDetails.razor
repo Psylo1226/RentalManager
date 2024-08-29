@@ -1,0 +1,48 @@
+﻿@page "/products/{id:int}"
+@using RentalManager.Domain.Models
+@using Microsoft.Extensions.Logging
+@using RentalManager.Domain.Contracts
+@using Serilog.Core
+@inject IRentalManagerUnitOfWork UnitOfWork
+@inject ILogger<Product> Logger
+<h3>Informacje o produkcie</h3>
+@if (_product == null)
+{
+    <div>
+        <p>Nie mogliśmy znaleźć danego produktu.</p>
+    </div>
+}
+else
+{
+<div>
+    <h4>@_product.ProductName</h4>
+    <p>@_product.Description</p>
+    <p><strong>Cena:</strong> @_product.Price</p>
+    <p><strong>Ilość w magazynie:</strong> @_product.QuantityInStock</p>
+    <p><strong>Typ:</strong> @_product.ProductType?.TypeName</p>
+</div>
+}
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private Product? _product;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            Logger.LogInformation("Loading product details for product with ID {Id}", Id);
+            _product = await UnitOfWork.ProductRepository.GetProductByIdAsyncWithProductTypes(Id);
+
+            if (_product == null)
+            {
+                Logger.LogWarning($"Product with ID {Id} not found.");
+            }
+        }
+        catch (Exception ex)
+        {
+            Logger.LogError(ex, $"Error loading product with ID {Id}");
+        }
+    }
+}

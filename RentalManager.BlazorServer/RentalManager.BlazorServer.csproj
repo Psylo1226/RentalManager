@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Blazored.FluentValidation" Version="2.2.0" />
+    <PackageReference Include="FluentValidation" Version="11.9.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.0" />
+    <PackageReference Include="MudBlazor" Version="7.6.0" />
+    <PackageReference Include="Serilog" Version="4.0.1" />
+    <PackageReference Include="Serilog.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="8.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RentalManager.Application\RentalManager.Application.csproj" />
+    <ProjectReference Include="..\RentalManager.Domain\RentalManager.Domain.csproj" />
+    <ProjectReference Include="..\RentalManager.Infrastructure\RentalManager.Infrastructure.csproj" />
+    <ProjectReference Include="..\RentalManager.SharedKernel\RentalManager.SharedKernel.csproj" />
+    <ProjectReference Include="..\RentalManager.WebAPI\RentalManager.WebAPI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Customers\Customers.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\css\images\" />
+  </ItemGroup>
+
+</Project>

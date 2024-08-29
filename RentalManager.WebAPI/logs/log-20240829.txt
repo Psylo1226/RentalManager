@@ -1,0 +1,399 @@
+2024-08-29 18:05:56.630 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 18:05:56.663 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44377/swagger/v1/swagger.json - -
+2024-08-29 18:05:56.663 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44377/swagger/index.html - -
+2024-08-29 18:05:56.677 +02:00 [INF] Hosting environment: Development
+2024-08-29 18:05:56.678 +02:00 [INF] Content root path: D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\
+2024-08-29 18:05:56.874 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44377/swagger/index.html - - - 200 - text/html;charset=utf-8 216.3235ms
+2024-08-29 18:05:56.900 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44377/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 243.7422ms
+2024-08-29 18:05:57.157 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44377/swagger/v1/swagger.json - -
+2024-08-29 18:05:57.168 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44377/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 10.3479ms
+2024-08-29 18:06:12.227 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44377/api/ProductType - -
+2024-08-29 18:06:12.234 +02:00 [INF] CORS policy execution successful.
+2024-08-29 18:06:12.247 +02:00 [INF] Executing endpoint 'RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI)'
+2024-08-29 18:06:12.296 +02:00 [INF] Route matched with {action = "GetAllProductTypes", controller = "ProductType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllProductTypes() on controller RentalManager.WebAPI.Controllers.ProductTypeController (RentalManager.WebAPI).
+2024-08-29 18:06:14.179 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 18:06:14.414 +02:00 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 18:06:14.436 +02:00 [INF] Executing action method RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI) - Validation state: "Valid"
+2024-08-29 18:06:14.438 +02:00 [INF] Getting all product types.
+2024-08-29 18:06:14.717 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-29 18:06:14.798 +02:00 [INF] Executed action method RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 356.5092ms.
+2024-08-29 18:06:14.807 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RentalManager.Domain.Models.ProductType, RentalManager.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 18:06:14.836 +02:00 [INF] Executed action RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI) in 2534.8072ms
+2024-08-29 18:06:14.836 +02:00 [INF] Executed endpoint 'RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI)'
+2024-08-29 18:06:14.841 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44377/api/ProductType - - - 200 - application/json;+charset=utf-8 2613.3598ms
+2024-08-29 18:06:23.737 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44377/api/ProductType - -
+2024-08-29 18:06:23.739 +02:00 [INF] CORS policy execution successful.
+2024-08-29 18:06:23.740 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44377/api/ProductType - - - 204 - - 3.2358ms
+2024-08-29 18:06:23.744 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44377/api/ProductType application/json;+charset=utf-8 6
+2024-08-29 18:06:23.745 +02:00 [INF] CORS policy execution successful.
+2024-08-29 18:06:23.745 +02:00 [INF] Executing endpoint 'RentalManager.WebAPI.Controllers.ProductTypeController.PostProductType (RentalManager.WebAPI)'
+2024-08-29 18:06:23.758 +02:00 [INF] Route matched with {action = "PostProductType", controller = "ProductType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostProductType(System.String) on controller RentalManager.WebAPI.Controllers.ProductTypeController (RentalManager.WebAPI).
+2024-08-29 18:06:23.761 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 18:06:23.762 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 18:06:23.785 +02:00 [INF] Executing action method RentalManager.WebAPI.Controllers.ProductTypeController.PostProductType (RentalManager.WebAPI) - Validation state: "Valid"
+2024-08-29 18:06:23.787 +02:00 [INF] Adding new product type.
+2024-08-29 18:06:23.934 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44377/api/ProductType application/json;+charset=utf-8 6
+2024-08-29 18:06:23.934 +02:00 [INF] CORS policy execution successful.
+2024-08-29 18:06:23.934 +02:00 [INF] Executing endpoint 'RentalManager.WebAPI.Controllers.ProductTypeController.PostProductType (RentalManager.WebAPI)'
+2024-08-29 18:06:23.934 +02:00 [INF] Route matched with {action = "PostProductType", controller = "ProductType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostProductType(System.String) on controller RentalManager.WebAPI.Controllers.ProductTypeController (RentalManager.WebAPI).
+2024-08-29 18:06:23.974 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 4)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ProductTypes" ("TypeName")
+VALUES (@p0);
+SELECT "ProductTypeId"
+FROM "ProductTypes"
+WHERE changes() = 1 AND "rowid" = last_insert_rowid();
+2024-08-29 18:06:23.989 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 18:06:23.999 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 18:06:24.001 +02:00 [INF] Executing action method RentalManager.WebAPI.Controllers.ProductTypeController.PostProductType (RentalManager.WebAPI) - Validation state: "Valid"
+2024-08-29 18:06:24.001 +02:00 [INF] Adding new product type.
+2024-08-29 18:06:24.033 +02:00 [INF] Executed action method RentalManager.WebAPI.Controllers.ProductTypeController.PostProductType (RentalManager.WebAPI), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 248.1692ms.
+2024-08-29 18:06:24.034 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'RentalManager.Domain.Models.ProductType'.
+2024-08-29 18:06:24.057 +02:00 [INF] Executed action RentalManager.WebAPI.Controllers.ProductTypeController.PostProductType (RentalManager.WebAPI) in 298.7099ms
+2024-08-29 18:06:24.057 +02:00 [INF] Executed endpoint 'RentalManager.WebAPI.Controllers.ProductTypeController.PostProductType (RentalManager.WebAPI)'
+2024-08-29 18:06:24.057 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44377/api/ProductType application/json;+charset=utf-8 6 - 201 - application/json;+charset=utf-8 313.2892ms
+2024-08-29 18:06:24.064 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44377/api/ProductType - -
+2024-08-29 18:06:24.064 +02:00 [INF] CORS policy execution successful.
+2024-08-29 18:06:24.064 +02:00 [INF] Executing endpoint 'RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI)'
+2024-08-29 18:06:24.064 +02:00 [INF] Route matched with {action = "GetAllProductTypes", controller = "ProductType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllProductTypes() on controller RentalManager.WebAPI.Controllers.ProductTypeController (RentalManager.WebAPI).
+2024-08-29 18:06:24.065 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 18:06:24.066 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 18:06:24.066 +02:00 [INF] Executing action method RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI) - Validation state: "Valid"
+2024-08-29 18:06:24.066 +02:00 [INF] Getting all product types.
+2024-08-29 18:06:24.067 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-29 18:06:24.067 +02:00 [INF] Executed action method RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.1283ms.
+2024-08-29 18:06:24.067 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RentalManager.Domain.Models.ProductType, RentalManager.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 18:06:24.068 +02:00 [INF] Executed action RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI) in 3.3177ms
+2024-08-29 18:06:24.068 +02:00 [INF] Executed endpoint 'RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI)'
+2024-08-29 18:06:24.068 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44377/api/ProductType - - - 200 - application/json;+charset=utf-8 3.9242ms
+2024-08-29 18:06:24.165 +02:00 [ERR] Failed executing DbCommand (5ms) [Parameters=[@p0='?' (Size = 4)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ProductTypes" ("TypeName")
+VALUES (@p0);
+SELECT "ProductTypeId"
+FROM "ProductTypes"
+WHERE changes() = 1 AND "rowid" = last_insert_rowid();
+2024-08-29 18:06:24.305 +02:00 [ERR] An exception occurred in the database while saving changes for context type 'RentalManager.Infrastructure.Persistance.RentalManagerDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: ProductTypes.TypeName'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: ProductTypes.TypeName'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-08-29 18:06:24.307 +02:00 [ERR] Error adding new product type.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: ProductTypes.TypeName'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at RentalManager.Infrastructure.Repositories.ProductTypeRepository.InsertAsync(ProductType entity) in D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.Infrastructure\Repositories\ProductTypeRepository.cs:line 32
+   at RentalManager.WebAPI.Controllers.ProductTypeController.PostProductType(String productName) in D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.WebAPI\Controllers\ProductTypeController.cs:line 82
+2024-08-29 18:06:24.334 +02:00 [INF] Executed action method RentalManager.WebAPI.Controllers.ProductTypeController.PostProductType (RentalManager.WebAPI), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 333.3743ms.
+2024-08-29 18:06:24.335 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-08-29 18:06:24.336 +02:00 [INF] Executed action RentalManager.WebAPI.Controllers.ProductTypeController.PostProductType (RentalManager.WebAPI) in 401.3865ms
+2024-08-29 18:06:24.336 +02:00 [INF] Executed endpoint 'RentalManager.WebAPI.Controllers.ProductTypeController.PostProductType (RentalManager.WebAPI)'
+2024-08-29 18:06:24.336 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44377/api/ProductType application/json;+charset=utf-8 6 - 400 - text/plain;+charset=utf-8 402.0220ms
+2024-08-29 18:06:48.328 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44377/api/Product - -
+2024-08-29 18:06:48.328 +02:00 [INF] CORS policy execution successful.
+2024-08-29 18:06:48.328 +02:00 [INF] Executing endpoint 'RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI)'
+2024-08-29 18:06:48.331 +02:00 [INF] Route matched with {action = "GetAllProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllProducts() on controller RentalManager.WebAPI.Controllers.ProductController (RentalManager.WebAPI).
+2024-08-29 18:06:48.331 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 18:06:48.332 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 18:06:48.333 +02:00 [INF] Executing action method RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI) - Validation state: "Valid"
+2024-08-29 18:06:48.335 +02:00 [INF] Getting all products.
+2024-08-29 18:06:48.341 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock"
+FROM "Products" AS "p"
+2024-08-29 18:06:48.355 +02:00 [INF] Executed action method RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 21.7657ms.
+2024-08-29 18:06:48.355 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RentalManager.Domain.Models.Product, RentalManager.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 18:06:48.462 +02:00 [INF] Executed action RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI) in 131.3198ms
+2024-08-29 18:06:48.462 +02:00 [INF] Executed endpoint 'RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI)'
+2024-08-29 18:06:48.462 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44377/api/Product - - - 200 - application/json;+charset=utf-8 134.6587ms
+2024-08-29 18:07:00.962 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44377/api/Product - -
+2024-08-29 18:07:00.962 +02:00 [INF] CORS policy execution successful.
+2024-08-29 18:07:00.962 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44377/api/Product - - - 204 - - 0.3782ms
+2024-08-29 18:07:00.963 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44377/api/Product application/json;+charset=utf-8 107
+2024-08-29 18:07:00.963 +02:00 [INF] CORS policy execution successful.
+2024-08-29 18:07:00.964 +02:00 [INF] Executing endpoint 'RentalManager.WebAPI.Controllers.ProductController.PostProduct (RentalManager.WebAPI)'
+2024-08-29 18:07:00.966 +02:00 [INF] Route matched with {action = "PostProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostProduct(RentalManager.WebAPI.Controllers.ProductDto) on controller RentalManager.WebAPI.Controllers.ProductController (RentalManager.WebAPI).
+2024-08-29 18:07:00.967 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 18:07:00.968 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 18:07:00.980 +02:00 [INF] Executing action method RentalManager.WebAPI.Controllers.ProductController.PostProduct (RentalManager.WebAPI) - Validation state: "Valid"
+2024-08-29 18:07:00.981 +02:00 [INF] Adding new product.
+2024-08-29 18:07:01.065 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__typeName_0='?' (Size = 4)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+WHERE "p"."TypeName" = @__typeName_0
+LIMIT 1
+2024-08-29 18:07:01.089 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 14), @p1='?' (DbType = Decimal), @p2='?' (Size = 12), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Description", "Price", "ProductName", "ProductTypeId", "QuantityInStock")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT "ProductId"
+FROM "Products"
+WHERE changes() = 1 AND "rowid" = last_insert_rowid();
+2024-08-29 18:07:01.095 +02:00 [INF] Executed action method RentalManager.WebAPI.Controllers.ProductController.PostProduct (RentalManager.WebAPI), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 115.1931ms.
+2024-08-29 18:07:01.095 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'RentalManager.Domain.Models.Product'.
+2024-08-29 18:07:01.096 +02:00 [INF] Executed action RentalManager.WebAPI.Controllers.ProductController.PostProduct (RentalManager.WebAPI) in 129.2152ms
+2024-08-29 18:07:01.096 +02:00 [INF] Executed endpoint 'RentalManager.WebAPI.Controllers.ProductController.PostProduct (RentalManager.WebAPI)'
+2024-08-29 18:07:01.096 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44377/api/Product application/json;+charset=utf-8 107 - 201 - application/json;+charset=utf-8 132.3482ms
+2024-08-29 18:07:01.101 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44377/api/Product - -
+2024-08-29 18:07:01.102 +02:00 [INF] CORS policy execution successful.
+2024-08-29 18:07:01.102 +02:00 [INF] Executing endpoint 'RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI)'
+2024-08-29 18:07:01.102 +02:00 [INF] Route matched with {action = "GetAllProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllProducts() on controller RentalManager.WebAPI.Controllers.ProductController (RentalManager.WebAPI).
+2024-08-29 18:07:01.102 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 18:07:01.103 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 18:07:01.103 +02:00 [INF] Executing action method RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI) - Validation state: "Valid"
+2024-08-29 18:07:01.103 +02:00 [INF] Getting all products.
+2024-08-29 18:07:01.104 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock"
+FROM "Products" AS "p"
+2024-08-29 18:07:01.104 +02:00 [INF] Executed action method RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.5301ms.
+2024-08-29 18:07:01.104 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RentalManager.Domain.Models.Product, RentalManager.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 18:07:01.104 +02:00 [INF] Executed action RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI) in 2.62ms
+2024-08-29 18:07:01.104 +02:00 [INF] Executed endpoint 'RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI)'
+2024-08-29 18:07:01.104 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44377/api/Product - - - 200 - application/json;+charset=utf-8 3.1411ms
+2024-08-29 18:07:03.866 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44377/api/Product - -
+2024-08-29 18:07:03.867 +02:00 [INF] CORS policy execution successful.
+2024-08-29 18:07:03.867 +02:00 [INF] Executing endpoint 'RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI)'
+2024-08-29 18:07:03.867 +02:00 [INF] Route matched with {action = "GetAllProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllProducts() on controller RentalManager.WebAPI.Controllers.ProductController (RentalManager.WebAPI).
+2024-08-29 18:07:03.868 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 18:07:03.869 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 18:07:03.869 +02:00 [INF] Executing action method RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI) - Validation state: "Valid"
+2024-08-29 18:07:03.869 +02:00 [INF] Getting all products.
+2024-08-29 18:07:03.869 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock"
+FROM "Products" AS "p"
+2024-08-29 18:07:03.869 +02:00 [INF] Executed action method RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.532ms.
+2024-08-29 18:07:03.870 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RentalManager.Domain.Models.Product, RentalManager.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 18:07:03.870 +02:00 [INF] Executed action RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI) in 3.044ms
+2024-08-29 18:07:03.870 +02:00 [INF] Executed endpoint 'RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI)'
+2024-08-29 18:07:03.870 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44377/api/Product - - - 200 - application/json;+charset=utf-8 3.5635ms
+2024-08-29 18:07:05.090 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44377/api/ProductType - -
+2024-08-29 18:07:05.090 +02:00 [INF] CORS policy execution successful.
+2024-08-29 18:07:05.090 +02:00 [INF] Executing endpoint 'RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI)'
+2024-08-29 18:07:05.090 +02:00 [INF] Route matched with {action = "GetAllProductTypes", controller = "ProductType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllProductTypes() on controller RentalManager.WebAPI.Controllers.ProductTypeController (RentalManager.WebAPI).
+2024-08-29 18:07:05.091 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 18:07:05.092 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 18:07:05.092 +02:00 [INF] Executing action method RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI) - Validation state: "Valid"
+2024-08-29 18:07:05.092 +02:00 [INF] Getting all product types.
+2024-08-29 18:07:05.092 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-29 18:07:05.093 +02:00 [INF] Executed action method RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.4041ms.
+2024-08-29 18:07:05.093 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RentalManager.Domain.Models.ProductType, RentalManager.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 18:07:05.093 +02:00 [INF] Executed action RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI) in 2.4612ms
+2024-08-29 18:07:05.093 +02:00 [INF] Executed endpoint 'RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI)'
+2024-08-29 18:07:05.093 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44377/api/ProductType - - - 200 - application/json;+charset=utf-8 2.9146ms
+2024-08-29 18:14:46.393 +02:00 [INF] Application is shutting down...
+2024-08-29 19:48:49.396 +02:00 [INF] Now listening on: https://localhost:7270
+2024-08-29 19:48:49.426 +02:00 [INF] Now listening on: http://localhost:5136
+2024-08-29 19:48:49.430 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 19:48:49.431 +02:00 [INF] Hosting environment: Development
+2024-08-29 19:48:49.431 +02:00 [INF] Content root path: C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\
+2024-08-29 19:48:49.720 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger - -
+2024-08-29 19:48:49.856 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger - - - 301 0 - 139.3384ms
+2024-08-29 19:48:49.858 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - -
+2024-08-29 19:48:50.063 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - - - 200 - text/html;charset=utf-8 205.1006ms
+2024-08-29 19:48:50.069 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - -
+2024-08-29 19:48:50.069 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/swagger-ui-standalone-preset.js - -
+2024-08-29 19:48:50.070 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/swagger-ui-bundle.js - -
+2024-08-29 19:48:50.070 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/swagger-ui.css - -
+2024-08-29 19:48:50.074 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 4.9427ms
+2024-08-29 19:48:50.088 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-08-29 19:48:50.088 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-08-29 19:48:50.094 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/swagger-ui.css - - - 200 152034 text/css 24.4888ms
+2024-08-29 19:48:50.096 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/swagger-ui-standalone-preset.js - - - 200 230280 application/javascript 24.7835ms
+2024-08-29 19:48:50.104 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/_vs/browserLink - -
+2024-08-29 19:48:50.107 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-08-29 19:48:50.107 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/swagger-ui-bundle.js - - - 200 1456926 application/javascript 37.5798ms
+2024-08-29 19:48:50.126 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.2976ms
+2024-08-29 19:48:50.362 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - -
+2024-08-29 19:48:50.511 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 148.2649ms
+2024-08-29 19:59:46.954 +02:00 [INF] Now listening on: https://localhost:7270
+2024-08-29 19:59:46.983 +02:00 [INF] Now listening on: http://localhost:5136
+2024-08-29 19:59:46.987 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 19:59:46.988 +02:00 [INF] Hosting environment: Development
+2024-08-29 19:59:46.988 +02:00 [INF] Content root path: C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\
+2024-08-29 19:59:47.640 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger - -
+2024-08-29 19:59:47.761 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger - - - 301 0 - 124.5551ms
+2024-08-29 19:59:47.770 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - -
+2024-08-29 19:59:47.957 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - - - 200 - text/html;charset=utf-8 187.6148ms
+2024-08-29 19:59:47.960 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/swagger-ui.css - -
+2024-08-29 19:59:47.961 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/swagger-ui-bundle.js - -
+2024-08-29 19:59:47.961 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/swagger-ui-standalone-preset.js - -
+2024-08-29 19:59:47.961 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - -
+2024-08-29 19:59:47.966 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 4.7457ms
+2024-08-29 19:59:47.981 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-08-29 19:59:47.981 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-08-29 19:59:47.981 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-08-29 19:59:47.982 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/swagger-ui-bundle.js - - - 200 1456926 application/javascript 20.8471ms
+2024-08-29 19:59:47.982 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/swagger-ui-standalone-preset.js - - - 200 230280 application/javascript 20.8578ms
+2024-08-29 19:59:47.982 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/swagger-ui.css - - - 200 152034 text/css 21.2537ms
+2024-08-29 19:59:47.993 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/_vs/browserLink - -
+2024-08-29 19:59:48.012 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.5573ms
+2024-08-29 19:59:48.165 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - -
+2024-08-29 19:59:48.277 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 112.5225ms
+2024-08-29 20:05:29.471 +02:00 [INF] Now listening on: https://localhost:7270
+2024-08-29 20:05:29.516 +02:00 [INF] Now listening on: http://localhost:5136
+2024-08-29 20:05:29.523 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 20:05:29.524 +02:00 [INF] Hosting environment: Development
+2024-08-29 20:05:29.524 +02:00 [INF] Content root path: C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.WebAPI\
+2024-08-29 20:05:30.046 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger - -
+2024-08-29 20:05:30.173 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger - - - 301 0 - 138.1402ms
+2024-08-29 20:05:30.191 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - -
+2024-08-29 20:05:30.569 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/swagger-ui-bundle.js - -
+2024-08-29 20:05:30.569 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/swagger-ui-standalone-preset.js - -
+2024-08-29 20:05:30.569 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/swagger-ui.css - -
+2024-08-29 20:05:30.569 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - - - 200 - text/html;charset=utf-8 378.5819ms
+2024-08-29 20:05:30.589 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-08-29 20:05:30.589 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-08-29 20:05:30.589 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-08-29 20:05:30.589 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/swagger-ui.css - - - 200 152034 text/css 20.4124ms
+2024-08-29 20:05:30.589 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/swagger-ui-standalone-preset.js - - - 200 230280 application/javascript 20.2081ms
+2024-08-29 20:05:30.589 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/swagger-ui-bundle.js - - - 200 1456926 application/javascript 20.4654ms
+2024-08-29 20:05:30.603 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - -
+2024-08-29 20:05:30.607 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 3.9946ms
+2024-08-29 20:05:30.616 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/_vs/browserLink - -
+2024-08-29 20:05:30.633 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.5385ms
+2024-08-29 20:05:30.812 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - -
+2024-08-29 20:05:30.933 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 120.9032ms
+2024-08-29 20:05:37.115 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/api/ProductType - -
+2024-08-29 20:05:37.119 +02:00 [INF] CORS policy execution successful.
+2024-08-29 20:05:37.123 +02:00 [INF] Executing endpoint 'RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI)'
+2024-08-29 20:05:37.146 +02:00 [INF] Route matched with {action = "GetAllProductTypes", controller = "ProductType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllProductTypes() on controller RentalManager.WebAPI.Controllers.ProductTypeController (RentalManager.WebAPI).
+2024-08-29 20:05:37.988 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 20:05:38.201 +02:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 20:05:38.309 +02:00 [INF] Executing action method RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI) - Validation state: "Valid"
+2024-08-29 20:05:38.311 +02:00 [INF] Getting all product types.
+2024-08-29 20:05:38.532 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-29 20:05:38.586 +02:00 [INF] Executed action method RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 272.6665ms.
+2024-08-29 20:05:38.590 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RentalManager.Domain.Models.ProductType, RentalManager.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 20:05:38.607 +02:00 [INF] Executed action RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI) in 1457.2246ms
+2024-08-29 20:05:38.607 +02:00 [INF] Executed endpoint 'RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI)'
+2024-08-29 20:05:38.611 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/api/ProductType - - - 200 - application/json;+charset=utf-8 1496.0431ms
+2024-08-29 20:05:46.018 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/api/Product - -
+2024-08-29 20:05:46.020 +02:00 [INF] CORS policy execution successful.
+2024-08-29 20:05:46.020 +02:00 [INF] Executing endpoint 'RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI)'
+2024-08-29 20:05:46.022 +02:00 [INF] Route matched with {action = "GetAllProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllProducts() on controller RentalManager.WebAPI.Controllers.ProductController (RentalManager.WebAPI).
+2024-08-29 20:05:46.023 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 20:05:46.066 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 20:05:46.078 +02:00 [INF] Executing action method RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI) - Validation state: "Valid"
+2024-08-29 20:05:46.079 +02:00 [INF] Getting all products.
+2024-08-29 20:05:46.082 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock"
+FROM "Products" AS "p"
+2024-08-29 20:05:46.093 +02:00 [INF] Executed action method RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 15.1958ms.
+2024-08-29 20:05:46.093 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RentalManager.Domain.Models.Product, RentalManager.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 20:05:46.096 +02:00 [INF] Executed action RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI) in 74.2905ms
+2024-08-29 20:05:46.096 +02:00 [INF] Executed endpoint 'RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI)'
+2024-08-29 20:05:46.096 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/api/Product - - - 200 - application/json;+charset=utf-8 77.6708ms
+2024-08-29 20:06:14.080 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/api/ProductType - -
+2024-08-29 20:06:14.081 +02:00 [INF] CORS policy execution successful.
+2024-08-29 20:06:14.081 +02:00 [INF] Executing endpoint 'RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI)'
+2024-08-29 20:06:14.081 +02:00 [INF] Route matched with {action = "GetAllProductTypes", controller = "ProductType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllProductTypes() on controller RentalManager.WebAPI.Controllers.ProductTypeController (RentalManager.WebAPI).
+2024-08-29 20:06:14.128 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 20:06:14.134 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 20:06:14.145 +02:00 [INF] Executing action method RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI) - Validation state: "Valid"
+2024-08-29 20:06:14.145 +02:00 [INF] Getting all product types.
+2024-08-29 20:06:14.146 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-29 20:06:14.146 +02:00 [INF] Executed action method RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.0894ms.
+2024-08-29 20:06:14.146 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RentalManager.Domain.Models.ProductType, RentalManager.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 20:06:14.146 +02:00 [INF] Executed action RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI) in 65.2454ms
+2024-08-29 20:06:14.146 +02:00 [INF] Executed endpoint 'RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI)'
+2024-08-29 20:06:14.146 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/api/ProductType - - - 200 - application/json;+charset=utf-8 66.7053ms
+2024-08-29 20:06:15.325 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/api/Product - -
+2024-08-29 20:06:15.325 +02:00 [INF] CORS policy execution successful.
+2024-08-29 20:06:15.325 +02:00 [INF] Executing endpoint 'RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI)'
+2024-08-29 20:06:15.326 +02:00 [INF] Route matched with {action = "GetAllProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllProducts() on controller RentalManager.WebAPI.Controllers.ProductController (RentalManager.WebAPI).
+2024-08-29 20:06:15.326 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 20:06:15.326 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 20:06:15.339 +02:00 [INF] Executing action method RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI) - Validation state: "Valid"
+2024-08-29 20:06:15.339 +02:00 [INF] Getting all products.
+2024-08-29 20:06:15.339 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock"
+FROM "Products" AS "p"
+2024-08-29 20:06:15.339 +02:00 [INF] Executed action method RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.3818ms.
+2024-08-29 20:06:15.340 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RentalManager.Domain.Models.Product, RentalManager.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 20:06:15.340 +02:00 [INF] Executed action RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI) in 14.139ms
+2024-08-29 20:06:15.340 +02:00 [INF] Executed endpoint 'RentalManager.WebAPI.Controllers.ProductController.GetAllProducts (RentalManager.WebAPI)'
+2024-08-29 20:06:15.340 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/api/Product - - - 200 - application/json;+charset=utf-8 14.6633ms
+2024-08-29 20:06:17.032 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7270/api/ProductType - -
+2024-08-29 20:06:17.033 +02:00 [INF] CORS policy execution successful.
+2024-08-29 20:06:17.033 +02:00 [INF] Executing endpoint 'RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI)'
+2024-08-29 20:06:17.033 +02:00 [INF] Route matched with {action = "GetAllProductTypes", controller = "ProductType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllProductTypes() on controller RentalManager.WebAPI.Controllers.ProductTypeController (RentalManager.WebAPI).
+2024-08-29 20:06:17.033 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-29 20:06:17.034 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-29 20:06:17.045 +02:00 [INF] Executing action method RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI) - Validation state: "Valid"
+2024-08-29 20:06:17.045 +02:00 [INF] Getting all product types.
+2024-08-29 20:06:17.046 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-29 20:06:17.046 +02:00 [INF] Executed action method RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.3004ms.
+2024-08-29 20:06:17.046 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RentalManager.Domain.Models.ProductType, RentalManager.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 20:06:17.046 +02:00 [INF] Executed action RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI) in 13.201ms
+2024-08-29 20:06:17.046 +02:00 [INF] Executed endpoint 'RentalManager.WebAPI.Controllers.ProductTypeController.GetAllProductTypes (RentalManager.WebAPI)'
+2024-08-29 20:06:17.046 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7270/api/ProductType - - - 200 - application/json;+charset=utf-8 13.8401ms

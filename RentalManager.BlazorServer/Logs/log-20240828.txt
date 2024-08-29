@@ -1,0 +1,250 @@
+2024-08-28 23:07:02.419 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-28 23:07:02.680 +02:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-28 23:07:02.691 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-28 23:07:02.974 +02:00 [INF] User profile is available. Using 'C:\Users\DETO_NAT_OR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-28 23:07:03.319 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-28 23:07:03.319 +02:00 [INF] Hosting environment: Development
+2024-08-28 23:07:03.319 +02:00 [INF] Content root path: D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\
+2024-08-28 23:07:03.344 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/ - -
+2024-08-28 23:07:03.368 +02:00 [INF] Executing endpoint '/_Host'
+2024-08-28 23:07:03.464 +02:00 [INF] Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-28 23:07:03.480 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-08-28 23:07:03.480 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-28 23:07:03.880 +02:00 [INF] Executed page /_Host in 409.1789ms
+2024-08-28 23:07:03.881 +02:00 [INF] Executed endpoint '/_Host'
+2024-08-28 23:07:03.895 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/ - - - 200 - text/html;+charset=utf-8 553.7503ms
+2024-08-28 23:07:03.989 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-28 23:07:03.997 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-28 23:07:03.997 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-28 23:07:03.997 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-28 23:07:03.999 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/css/images/ropeway-with-snow-covered-alps.jpg - -
+2024-08-28 23:07:04.000 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-28 23:07:04.000 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-28 23:07:04.013 +02:00 [INF] The file /css/site.css was not modified
+2024-08-28 23:07:04.013 +02:00 [INF] The file /RentalManager.BlazorServer.styles.css was not modified
+2024-08-28 23:07:04.013 +02:00 [INF] The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-28 23:07:04.013 +02:00 [INF] The file /css/images/ropeway-with-snow-covered-alps.jpg was not modified
+2024-08-28 23:07:04.013 +02:00 [INF] The file /_content/MudBlazor/MudBlazor.min.js was not modified
+2024-08-28 23:07:04.013 +02:00 [INF] The file /_content/MudBlazor/MudBlazor.min.css was not modified
+2024-08-28 23:07:04.013 +02:00 [INF] The file /_framework/blazor.server.js was not modified
+2024-08-28 23:07:04.015 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 304 - application/javascript 14.3926ms
+2024-08-28 23:07:04.015 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 304 - text/css 17.4458ms
+2024-08-28 23:07:04.015 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 304 - text/css 17.1978ms
+2024-08-28 23:07:04.015 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - - - 304 - application/javascript 14.5813ms
+2024-08-28 23:07:04.015 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 304 - text/css 25.9119ms
+2024-08-28 23:07:04.015 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - - - 304 - text/css 17.2250ms
+2024-08-28 23:07:04.015 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/css/images/ropeway-with-snow-covered-alps.jpg - - - 304 - image/jpeg 15.7309ms
+2024-08-28 23:07:04.061 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-28 23:07:04.062 +02:00 [INF] The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-28 23:07:04.062 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.6769ms
+2024-08-28 23:07:04.208 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-28 23:07:04.212 +02:00 [INF] Executing endpoint 'Blazor initializers'
+2024-08-28 23:07:04.222 +02:00 [INF] Executed endpoint 'Blazor initializers'
+2024-08-28 23:07:04.222 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 14.0277ms
+2024-08-28 23:07:04.369 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-28 23:07:04.376 +02:00 [INF] CORS policy execution successful.
+2024-08-28 23:07:04.379 +02:00 [INF] The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-28 23:07:04.381 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 11.1996ms
+2024-08-28 23:07:04.434 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-28 23:07:04.435 +02:00 [INF] CORS policy execution successful.
+2024-08-28 23:07:04.437 +02:00 [INF] Executing endpoint '/_blazor/negotiate'
+2024-08-28 23:07:04.453 +02:00 [INF] Executed endpoint '/_blazor/negotiate'
+2024-08-28 23:07:04.454 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 19.2489ms
+2024-08-28 23:07:04.496 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=Oi5kUQRM0Q2SVdCzlRV2aA - -
+2024-08-28 23:07:04.497 +02:00 [INF] CORS policy execution successful.
+2024-08-28 23:07:04.497 +02:00 [INF] Executing endpoint '/_blazor'
+2024-08-28 23:07:05.753 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-28 23:07:05.755 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-28 23:07:05.798 +02:00 [INF] Loading products.
+2024-08-28 23:07:06.162 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock", "p0"."ProductTypeId", "p0"."TypeName"
+FROM "Products" AS "p"
+INNER JOIN "ProductTypes" AS "p0" ON "p"."ProductTypeId" = "p0"."ProductTypeId"
+2024-08-28 23:07:07.253 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-28 23:07:14.320 +02:00 [INF] Adding product type
+2024-08-28 23:07:14.465 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ProductTypes" ("TypeName")
+VALUES (@p0);
+SELECT "ProductTypeId"
+FROM "ProductTypes"
+WHERE changes() = 1 AND "rowid" = last_insert_rowid();
+2024-08-28 23:07:14.501 +02:00 [INF] Dodanie danych
+2024-08-28 23:07:14.503 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-28 23:07:17.783 +02:00 [INF] Updating product type
+2024-08-28 23:07:17.792 +02:00 [ERR] Wystąpił błąd
+System.InvalidOperationException: The instance of entity type 'ProductType' cannot be tracked because another instance with the same key value for {'ProductTypeId'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at RentalManager.Infrastructure.Repositories.ProductTypeRepository.UpdateAsync(ProductType entity) in D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.Infrastructure\Repositories\ProductTypeRepository.cs:line 36
+   at RentalManager.BlazorServer.Pages.ProductTypes.ProductTypes.AddOrUpdateItem() in D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\Pages\ProductTypes\ProductTypes.razor:line 94
+2024-08-28 23:07:19.919 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/producttypes - -
+2024-08-28 23:07:19.919 +02:00 [INF] Executing endpoint '/_Host'
+2024-08-28 23:07:19.920 +02:00 [INF] Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-28 23:07:19.920 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-08-28 23:07:19.920 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-28 23:07:19.967 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-28 23:07:19.973 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-28 23:07:19.974 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-28 23:07:19.976 +02:00 [INF] Executed page /_Host in 56.4844ms
+2024-08-28 23:07:19.976 +02:00 [INF] Executed endpoint '/_Host'
+2024-08-28 23:07:19.978 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/producttypes - - - 200 - text/html;+charset=utf-8 58.8416ms
+2024-08-28 23:07:19.995 +02:00 [INF] Executed endpoint '/_blazor'
+2024-08-28 23:07:19.996 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=Oi5kUQRM0Q2SVdCzlRV2aA - - - 101 - - 15499.8772ms
+2024-08-28 23:07:20.010 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-28 23:07:20.010 +02:00 [INF] The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-28 23:07:20.010 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-28 23:07:20.010 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-28 23:07:20.010 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-28 23:07:20.010 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 304 - text/css 0.4899ms
+2024-08-28 23:07:20.010 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-28 23:07:20.010 +02:00 [INF] The file /RentalManager.BlazorServer.styles.css was not modified
+2024-08-28 23:07:20.010 +02:00 [INF] The file /css/site.css was not modified
+2024-08-28 23:07:20.010 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 304 - text/css 0.1785ms
+2024-08-28 23:07:20.010 +02:00 [INF] The file /_content/MudBlazor/MudBlazor.min.js was not modified
+2024-08-28 23:07:20.010 +02:00 [INF] The file /_content/MudBlazor/MudBlazor.min.css was not modified
+2024-08-28 23:07:20.010 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 304 - text/css 0.1870ms
+2024-08-28 23:07:20.010 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - - - 304 - application/javascript 0.2224ms
+2024-08-28 23:07:20.010 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - - - 304 - text/css 0.2126ms
+2024-08-28 23:07:20.012 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-28 23:07:20.012 +02:00 [INF] The file /_framework/blazor.server.js was not modified
+2024-08-28 23:07:20.012 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 304 - application/javascript 0.3542ms
+2024-08-28 23:07:20.026 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-28 23:07:20.026 +02:00 [INF] The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-28 23:07:20.027 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.3861ms
+2024-08-28 23:07:20.035 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-28 23:07:20.036 +02:00 [INF] Executing endpoint 'Blazor initializers'
+2024-08-28 23:07:20.036 +02:00 [INF] Executed endpoint 'Blazor initializers'
+2024-08-28 23:07:20.036 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 0.7714ms
+2024-08-28 23:07:20.048 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-28 23:07:20.048 +02:00 [INF] CORS policy execution successful.
+2024-08-28 23:07:20.048 +02:00 [INF] The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-28 23:07:20.048 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 0.4606ms
+2024-08-28 23:07:20.055 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-28 23:07:20.055 +02:00 [INF] CORS policy execution successful.
+2024-08-28 23:07:20.055 +02:00 [INF] Executing endpoint '/_blazor/negotiate'
+2024-08-28 23:07:20.056 +02:00 [INF] Executed endpoint '/_blazor/negotiate'
+2024-08-28 23:07:20.056 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 0.5322ms
+2024-08-28 23:07:20.075 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=f5uplI0zf7yg05gRR7Av8g - -
+2024-08-28 23:07:20.075 +02:00 [INF] CORS policy execution successful.
+2024-08-28 23:07:20.075 +02:00 [INF] Executing endpoint '/_blazor'
+2024-08-28 23:07:20.080 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-28 23:07:20.081 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-28 23:07:20.082 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductTypeId", "p"."TypeName"
+FROM "ProductTypes" AS "p"
+2024-08-28 23:07:20.105 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/favicon.ico - -
+2024-08-28 23:07:20.106 +02:00 [INF] The file /favicon.ico was not modified
+2024-08-28 23:07:20.106 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/favicon.ico - - - 304 - image/x-icon 0.5160ms
+2024-08-28 23:07:22.862 +02:00 [INF] Loading products.
+2024-08-28 23:07:22.864 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock", "p0"."ProductTypeId", "p0"."TypeName"
+FROM "Products" AS "p"
+INNER JOIN "ProductTypes" AS "p0" ON "p"."ProductTypeId" = "p0"."ProductTypeId"
+2024-08-28 23:07:25.068 +02:00 [INF] Loading product details for product with ID 4
+2024-08-28 23:07:25.093 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock", "p0"."ProductTypeId", "p0"."TypeName"
+FROM "Products" AS "p"
+INNER JOIN "ProductTypes" AS "p0" ON "p"."ProductTypeId" = "p0"."ProductTypeId"
+WHERE "p"."ProductId" = @__id_0
+LIMIT 1
+2024-08-28 23:07:25.942 +02:00 [INF] Loading products.
+2024-08-28 23:07:25.942 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock", "p0"."ProductTypeId", "p0"."TypeName"
+FROM "Products" AS "p"
+INNER JOIN "ProductTypes" AS "p0" ON "p"."ProductTypeId" = "p0"."ProductTypeId"
+2024-08-28 23:15:36.739 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/products - -
+2024-08-28 23:15:36.739 +02:00 [INF] Executing endpoint '/_Host'
+2024-08-28 23:15:36.740 +02:00 [INF] Route matched with {page = "/_Host", action = "", controller = ""}. Executing page /_Host
+2024-08-28 23:15:36.742 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-08-28 23:15:36.742 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-08-28 23:15:36.745 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-28 23:15:36.748 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-28 23:15:36.749 +02:00 [INF] Loading products.
+2024-08-28 23:15:36.753 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock", "p0"."ProductTypeId", "p0"."TypeName"
+FROM "Products" AS "p"
+INNER JOIN "ProductTypes" AS "p0" ON "p"."ProductTypeId" = "p0"."ProductTypeId"
+2024-08-28 23:15:36.758 +02:00 [INF] Executed page /_Host in 17.9421ms
+2024-08-28 23:15:36.758 +02:00 [INF] Executed endpoint '/_Host'
+2024-08-28 23:15:36.759 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/products - - - 200 - text/html;+charset=utf-8 20.0269ms
+2024-08-28 23:15:36.764 +02:00 [INF] Executed endpoint '/_blazor'
+2024-08-28 23:15:36.764 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=f5uplI0zf7yg05gRR7Av8g - - - 101 - - 496689.5912ms
+2024-08-28 23:15:36.799 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - -
+2024-08-28 23:15:36.799 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2024-08-28 23:15:36.799 +02:00 [INF] The file /css/site.css was not modified
+2024-08-28 23:15:36.799 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - -
+2024-08-28 23:15:36.799 +02:00 [INF] The file /css/bootstrap/bootstrap.min.css was not modified
+2024-08-28 23:15:36.799 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - -
+2024-08-28 23:15:36.799 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - -
+2024-08-28 23:15:36.799 +02:00 [INF] The file /_framework/blazor.server.js was not modified
+2024-08-28 23:15:36.799 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/css/bootstrap/bootstrap.min.css - - - 304 - text/css 0.3823ms
+2024-08-28 23:15:36.799 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 304 - text/css 0.3825ms
+2024-08-28 23:15:36.799 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/_framework/blazor.server.js - - - 304 - application/javascript 0.1664ms
+2024-08-28 23:15:36.799 +02:00 [INF] The file /RentalManager.BlazorServer.styles.css was not modified
+2024-08-28 23:15:36.799 +02:00 [INF] The file /_content/MudBlazor/MudBlazor.min.js was not modified
+2024-08-28 23:15:36.799 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/RentalManager.BlazorServer.styles.css - - - 304 - text/css 0.2003ms
+2024-08-28 23:15:36.799 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - -
+2024-08-28 23:15:36.799 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.js - - - 304 - application/javascript 0.3307ms
+2024-08-28 23:15:36.800 +02:00 [INF] The file /_content/MudBlazor/MudBlazor.min.css was not modified
+2024-08-28 23:15:36.800 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/_content/MudBlazor/MudBlazor.min.css - - - 304 - text/css 0.1947ms
+2024-08-28 23:15:36.809 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2024-08-28 23:15:36.809 +02:00 [INF] The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-08-28 23:15:36.809 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.6472ms
+2024-08-28 23:15:36.841 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - -
+2024-08-28 23:15:36.841 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/_blazor/initializers - -
+2024-08-28 23:15:36.841 +02:00 [INF] CORS policy execution successful.
+2024-08-28 23:15:36.841 +02:00 [INF] The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-08-28 23:15:36.842 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/css/open-iconic/font/fonts/open-iconic.woff - - - 304 - application/font-woff 0.4724ms
+2024-08-28 23:15:36.842 +02:00 [INF] Executing endpoint 'Blazor initializers'
+2024-08-28 23:15:36.843 +02:00 [INF] Executed endpoint 'Blazor initializers'
+2024-08-28 23:15:36.843 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/_blazor/initializers - - - 200 - application/json;+charset=utf-8 1.6225ms
+2024-08-28 23:15:36.896 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2024-08-28 23:15:36.896 +02:00 [INF] CORS policy execution successful.
+2024-08-28 23:15:36.896 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/favicon.ico - -
+2024-08-28 23:15:36.896 +02:00 [INF] The file /favicon.ico was not modified
+2024-08-28 23:15:36.897 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/favicon.ico - - - 304 - image/x-icon 0.2986ms
+2024-08-28 23:15:36.897 +02:00 [INF] Executing endpoint '/_blazor/negotiate'
+2024-08-28 23:15:36.897 +02:00 [INF] Executed endpoint '/_blazor/negotiate'
+2024-08-28 23:15:36.898 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44354/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 1.3414ms
+2024-08-28 23:15:36.905 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44354/_blazor?id=OH-oUcA9tLVrPQ-45XSHSQ - -
+2024-08-28 23:15:36.905 +02:00 [INF] CORS policy execution successful.
+2024-08-28 23:15:36.905 +02:00 [INF] Executing endpoint '/_blazor'
+2024-08-28 23:15:36.916 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'RentalManagerDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-08-28 23:15:36.917 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-28 23:15:36.917 +02:00 [INF] Loading products.
+2024-08-28 23:15:36.917 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Price", "p"."ProductName", "p"."ProductTypeId", "p"."QuantityInStock", "p0"."ProductTypeId", "p0"."TypeName"
+FROM "Products" AS "p"
+INNER JOIN "ProductTypes" AS "p0" ON "p"."ProductTypeId" = "p0"."ProductTypeId"
+2024-08-28 23:15:37.643 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/css/images/ropeway-with-snow-covered-alps.jpg - -
+2024-08-28 23:15:37.643 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44354/css/images/closeup-shot-snowboards-covered-snow-mountains.jpg - -
+2024-08-28 23:15:37.643 +02:00 [INF] The file /css/images/ropeway-with-snow-covered-alps.jpg was not modified
+2024-08-28 23:15:37.643 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/css/images/ropeway-with-snow-covered-alps.jpg - - - 304 - image/jpeg 0.7767ms
+2024-08-28 23:15:37.796 +02:00 [INF] Sending file. Request path: '/css/images/closeup-shot-snowboards-covered-snow-mountains.jpg'. Physical path: 'D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.BlazorServer\wwwroot\css\images\closeup-shot-snowboards-covered-snow-mountains.jpg'
+2024-08-28 23:15:37.807 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44354/css/images/closeup-shot-snowboards-covered-snow-mountains.jpg - - - 200 5695957 image/jpeg 164.7539ms
+2024-08-28 23:17:30.344 +02:00 [INF] Application is shutting down...
+2024-08-28 23:17:30.347 +02:00 [INF] Executed endpoint '/_blazor'
+2024-08-28 23:17:30.347 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44354/_blazor?id=OH-oUcA9tLVrPQ-45XSHSQ - - - 101 - - 113442.5174ms

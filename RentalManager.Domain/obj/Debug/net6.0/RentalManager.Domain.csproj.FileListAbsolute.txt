@@ -1,0 +1,49 @@
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.Domain\bin\Debug\net6.0\RentalManager.Domain.deps.json
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.Domain\bin\Debug\net6.0\RentalManager.Domain.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.Domain\bin\Debug\net6.0\RentalManager.Domain.pdb
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.csproj.AssemblyReference.cache
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.AssemblyInfoInputs.cache
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.AssemblyInfo.cs
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\refint\RentalManager.Domain.dll
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.pdb
+C:\Users\KamilSarzyniak\Desktop\C#\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\ref\RentalManager.Domain.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.Domain\bin\Debug\net6.0\RentalManager.Domain.deps.json
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.Domain\bin\Debug\net6.0\RentalManager.Domain.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.Domain\bin\Debug\net6.0\RentalManager.Domain.pdb
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.csproj.AssemblyReference.cache
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.AssemblyInfoInputs.cache
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.AssemblyInfo.cs
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.csproj.CoreCompileInputs.cache
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\refint\RentalManager.Domain.dll
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.pdb
+D:\PROJEKT\RentalManager\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\ref\RentalManager.Domain.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.Domain\bin\Debug\net6.0\RentalManager.Domain.deps.json
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.Domain\bin\Debug\net6.0\RentalManager.Domain.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.Domain\bin\Debug\net6.0\RentalManager.Domain.pdb
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.csproj.AssemblyReference.cache
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.AssemblyInfoInputs.cache
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.AssemblyInfo.cs
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.csproj.CoreCompileInputs.cache
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.sourcelink.json
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\refint\RentalManager.Domain.dll
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.pdb
+D:\AGH\kamil\RentalManager22\RentalManager\RentalManager\RentalManager\RentalManager.Domain\obj\Debug\net6.0\ref\RentalManager.Domain.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.Domain\bin\Debug\net6.0\RentalManager.Domain.deps.json
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.Domain\bin\Debug\net6.0\RentalManager.Domain.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.Domain\bin\Debug\net6.0\RentalManager.Domain.pdb
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.csproj.AssemblyReference.cache
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.AssemblyInfoInputs.cache
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.AssemblyInfo.cs
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.csproj.CoreCompileInputs.cache
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.Domain\obj\Debug\net6.0\refint\RentalManager.Domain.dll
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.Domain\obj\Debug\net6.0\RentalManager.Domain.pdb
+C:\Visual Studio\Programowanie aplikacji biznesowych\rentalmenager\RentalManager.Domain\obj\Debug\net6.0\ref\RentalManager.Domain.dll

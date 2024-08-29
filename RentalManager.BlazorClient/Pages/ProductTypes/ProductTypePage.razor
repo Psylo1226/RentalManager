@@ -1,0 +1,125 @@
+﻿@page "/producttypes"
+@using RentalManager.BlazorClient.Services
+@using RentalManager.Domain.Models
+@inject NavigationManager Navigation
+@inject ProductTypeService ProductTypeService
+<h3>Zarządzaj typami</h3>
+
+<div>
+    <h4>Produkty:</h4>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nazwa Typu Produktu</th>
+        </tr>
+        </thead>
+        <tbody>
+        @if (_productTypes == null)
+        {
+            <tr>
+                <td>Brak produktów</td>
+            </tr>
+        }
+        else
+        {
+            @foreach (var productType in _productTypes)
+            {
+                <tr>
+                    <td>@productType.ProductTypeId</td>
+                    <td>@productType.TypeName</td>
+                    <button @onclick="() => Delete(productType.ProductTypeId)" class="btn btn-sm btn-danger">Usuń</button>
+                </tr>
+            }
+        }
+        </tbody>
+    </table>
+</div>
+
+<h3>Dodaj nowy typ produktu</h3>
+<EditForm Model="@_newTypeModel" OnValidSubmit="AddProductType">
+    <thead>
+    <tr>
+        <th>Nazwa</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            <div class="form-group">
+                <InputText @bind-Value="@_newTypeModel.TypeName" class="form-control" />
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <label></label>
+                <button type="submit" class="btn btn-primary">Dodaj</button>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</EditForm>
+
+@code {
+    private IEnumerable<ProductType>? _productTypes = new List<ProductType>();
+    private ProductTypeModel _newTypeModel = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            await LoadProductTypes();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+
+    private async Task AddProductType()
+    {
+        try
+        {
+            if (string.IsNullOrWhiteSpace(_newTypeModel.TypeName))
+            {
+                return;
+            }
+            await ProductTypeService.PostProductTypeAsync(_newTypeModel.TypeName);
+            _newTypeModel.TypeName = string.Empty;
+            await LoadProductTypes();
+            StateHasChanged();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+    private async Task Delete(int id)
+    {
+        try
+        {
+            await ProductTypeService.DeleteProductTypeAsync(id);
+            _productTypes = await ProductTypeService.GetProductTypesAsync();
+            Navigation.NavigateTo("/producttypes");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+    private class ProductTypeModel
+    {
+        public string TypeName { get; set; } = string.Empty;
+    }
+    private async Task LoadProductTypes()
+    {
+        try
+        {
+            _productTypes = await ProductTypeService.GetProductTypesAsync();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+}

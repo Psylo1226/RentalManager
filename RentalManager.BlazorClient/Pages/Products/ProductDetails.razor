@@ -1,0 +1,60 @@
+﻿@page "/products/{id:int}"
+@using RentalManager.BlazorClient.Services
+@using RentalManager.Domain.Models
+@inject ProductService productService
+@inject ProductTypeService productTypeService
+@inject NavigationManager Navigation
+<h3>Detale o produkcie</h3>
+
+@if (_product != null)
+{
+    <div>
+        <h4>Id: @_product.ProductId</h4>
+        <h4>Nazwa: @_product.ProductName</h4>
+        <h4>Opis: @_product.Description</h4>
+        <h4>Cena: @_product.Price</h4>
+        <h4>Ilość: @_product.QuantityInStock</h4>
+        @if (_productType == null)
+        {
+            <h4>Typ produktu: Brak</h4>
+        }
+        else
+        {
+            <h4>Typ produktu: @_productType.TypeName</h4>
+        }
+    </div>
+    <div>
+        <button @onclick="() => Delete(_product.ProductId)" class="btn btn-sm btn-danger">Usuń</button>
+    </div>
+}
+else
+{
+    <p>Produkt nie istnieje.</p>
+}
+
+@code {
+    [Parameter] public int Id { get; set; }
+    private Product? _product = new();
+    private ProductType? _productType = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        _product = await productService.GetProductAsync(Id);
+        if (_product != null)
+            _productType = await productTypeService.GetProductTypeAsync(_product.ProductTypeId);
+    }
+
+    private async Task Delete(int id)
+    {
+        try
+        {
+            await productService.DeleteProductAsync(id);
+            Navigation.NavigateTo("/products");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+
+}
